@@ -1,0 +1,27 @@
+.nav {
+    height: 70px;
+    background-color: rgb(78, 127, 129);
+    box-shadow: 0 10px 20px rgba(49, 49, 49, 0.577);
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    &__linkblock {
+        margin-right: 30px;
+        width: 205px;
+        text-align: center;;
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+
+            color:rgba(240, 248, 255, 0.894);
+            transition: all 0.5s;
+            &:hover {
+                font-size: 20px;
+            }
+        }
+    }
+}
