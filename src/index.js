@@ -3,8 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 // conponents
-import MainPage from './components/main-page/main-page';
-import AboutMe from './components/about-me/about-me';
+import MainPage from './pages/page-main/main-page';
+import AboutMe from './pages/page-about-me/about-me';
+import Studies from './pages/page-sudies/studies';
 
 // styles
 import './index.css';
@@ -14,6 +15,7 @@ root.render(
   <React.StrictMode>
     <MainPage/>
     <AboutMe/>
+    <Studies/>
   </React.StrictMode>
 );
 

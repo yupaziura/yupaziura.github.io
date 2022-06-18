@@ -1,16 +1,16 @@
 // basic
 
 // components
-import Title from '../title/title';
-import TextArea from '../text-area/text-area';
+import Title from '../../components/title/title';
+import TextArea from '../../components/text-area/text-area';
 
 // styles
 import './about-me.scss';
 
 const AboutMe = () => {
     return (
-        <>
-            <div className="about_me">
+        <div className="about_me">
+            <div className="container">
                 <Title text='About me'/>
                 <div className="about_me__block">
                     <TextArea>
@@ -33,7 +33,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

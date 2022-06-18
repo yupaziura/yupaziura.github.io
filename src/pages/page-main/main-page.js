@@ -1,7 +1,7 @@
 // basic
 
 // components
-import Nav from "./nav/nav";
+import Nav from "../../components/nav/nav";
 
 // styles
 import './main-page.scss';

@@ -1,14 +1,12 @@
 .about_me {
-    max-width: 950px;
-    margin: 0 auto;
     padding-bottom: 20px;
 
     &__block {
         
         display: grid;
-        grid-template-columns: repeat(2, minmax(150px, 400px));
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: minmax(200px, auto);
-        grid-auto-rows :minmax(200px, auto) ;
+        grid-auto-rows: minmax(200px, auto) ;
         gap: 100px;
         justify-content: space-between;
 
