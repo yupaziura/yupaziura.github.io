@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client';
 import MainPage from './pages/page-main/main-page';
 import AboutMe from './pages/page-about-me/about-me';
 import Studies from './pages/page-sudies/studies';
+import Experience from './pages/page-experience/experience';
 
 // styles
 import './index.css';
@@ -16,6 +17,7 @@ root.render(
     <MainPage/>
     <AboutMe/>
     <Studies/>
+    <Experience/>
   </React.StrictMode>
 );
 
