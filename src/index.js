@@ -7,6 +7,7 @@ import MainPage from './pages/page-main/main-page';
 import AboutMe from './pages/page-about-me/about-me';
 import Studies from './pages/page-sudies/studies';
 import Experience from './pages/page-experience/experience';
+import Skills from './pages/page-skills/skills';
 
 // styles
 import './index.css';
@@ -18,6 +19,7 @@ root.render(
     <AboutMe/>
     <Studies/>
     <Experience/>
+    <Skills/>
   </React.StrictMode>
 );
 
