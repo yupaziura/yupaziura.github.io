@@ -1,4 +1,6 @@
 // basic
+import {React} from 'react';
+import {main, mainUA} from '../../db/db';
 
 // components
 import Nav from "../../components/nav/nav";
@@ -7,10 +9,13 @@ import Nav from "../../components/nav/nav";
 import './main-page.scss';
 
 
-const MainPage = () => {
+const MainPage = (props) => {
+    const obj = props.language === 0? main : mainUA;
+    
+
     return (
         <div className="main">
-            <Nav/>
+            <Nav language={props.language} setLanguage={props.setLanguage}/>
             <div className="main__content">
                 
                 <div className="main__photo">
@@ -18,8 +23,8 @@ const MainPage = () => {
                 </div>
 
                 <div className="main__headers">
-                    <div><h1 className="main__headers_h1">Hi! My name is Yuliia Paziura</h1></div>
-                    <div><h2 className="main__headers_h2">I am a web-developer </h2></div>
+                    <div><h1 className="main__headers_h1">{obj.title}</h1></div>
+                    <div><h2 className="main__headers_h2">{obj.subtitle}</h2></div>
                 </div>
 
             </div>
