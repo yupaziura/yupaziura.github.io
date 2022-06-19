@@ -18,6 +18,9 @@ const Nav = () => {
                 <div className="nav__linkblock">
                     <a className="nav__link" href="#">Experience</a>
                 </div>
+                <div className="nav__linkblock">
+                    <a className="nav__link" href="#">Contact</a>
+                </div>
             </nav>
         </>
     )

@@ -8,6 +8,7 @@ import AboutMe from './pages/page-about-me/about-me';
 import Studies from './pages/page-sudies/studies';
 import Experience from './pages/page-experience/experience';
 import Skills from './pages/page-skills/skills';
+import Footer from './pages/footer/footer';
 
 // styles
 import './index.css';
@@ -20,6 +21,7 @@ root.render(
     <Studies/>
     <Experience/>
     <Skills/>
+    <Footer/>
   </React.StrictMode>
 );
 
