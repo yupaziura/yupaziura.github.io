@@ -9,7 +9,7 @@ import './skills.scss';
 
 const Skills = () => {
     return (
-        <>
+        <div id='skills'>
             <Title text={'Skills'}/>
             <div className="container">
                 <div className="skills">
@@ -22,7 +22,7 @@ const Skills = () => {
                     <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

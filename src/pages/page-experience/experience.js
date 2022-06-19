@@ -9,7 +9,7 @@ import './experience.scss';
 const Experience = () => {
     return ( 
         <>
-            <div className="container">
+            <div className="container" id='experience'>
                 <Title text={'Experience'} />
 
                 <div className="experience">

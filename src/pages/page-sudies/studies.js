@@ -31,7 +31,7 @@ const Studies = () => {
   const schoolText = 'Studied at the gymnasium with in-depth study of foreign languages, a mathematical class. Graduated with honors.'
     return (
         <>
-            <div className="container">
+            <div className="container" id='studies'>
                 <Title text = 'Studies and Courses'/>
 
                 <Timeline position="alternate">

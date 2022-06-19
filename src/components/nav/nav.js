@@ -10,16 +10,19 @@ const Nav = () => {
         <>
             <nav className="nav">
                 <div className="nav__linkblock">
-                    <a className="nav__link" href="#">About me</a> 
+                    <a className="nav__link" href="#about_me">About me</a> 
                 </div>
                 <div className="nav__linkblock">
-                    <a className="nav__link" href="#">Studies and courses</a> 
+                    <a className="nav__link" href="#studies">Studies and courses</a> 
                 </div>
                 <div className="nav__linkblock">
-                    <a className="nav__link" href="#">Experience</a>
+                    <a className="nav__link" href="#experience">Experience</a>
                 </div>
                 <div className="nav__linkblock">
-                    <a className="nav__link" href="#">Contact</a>
+                    <a className="nav__link" href="#skills">Skills</a>
+                </div>
+                <div className="nav__linkblock">
+                    <a className="nav__link" href="#footer">Contact</a>
                 </div>
             </nav>
         </>

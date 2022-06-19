@@ -8,7 +8,7 @@ import './footer.scss';
 const Footer = () => {
     return (
         <>
-            <div className="footer">
+            <div className="footer" id='footer'>
                 <div className="footer__info">
                     <p>
                         This website was created using React framework.

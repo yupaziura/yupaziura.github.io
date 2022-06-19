@@ -9,7 +9,7 @@ import './about-me.scss';
 
 const AboutMe = () => {
     return (
-        <div className="about_me">
+        <div className="about_me" id='about_me'>
             <div className="container">
                 <Title text='About me'/>
                 <div className="about_me__block">
