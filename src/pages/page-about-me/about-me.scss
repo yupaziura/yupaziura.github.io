@@ -5,10 +5,11 @@
         
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: minmax(200px, auto);
+        grid-template-rows: repeat(auto-fill, minmax(200px, auto));
         grid-auto-rows: minmax(200px, auto) ;
         gap: 100px;
         justify-content: space-between;
+        flex-wrap: wrap;
 
     }
 

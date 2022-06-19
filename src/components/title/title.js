@@ -9,7 +9,7 @@ import './title.scss';
 const Title = (props) => {
     return (
         <>
-            <h3>{props.text}</h3>
+            <h3 className='header_h3'>{props.text}</h3>
         </>
     )
 }
