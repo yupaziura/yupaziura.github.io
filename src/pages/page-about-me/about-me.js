@@ -10,6 +10,8 @@ import './about-me.scss';
 
 const AboutMe = (props) => {
     const obj = props.language === 0? aboutMe : aboutMeUA;
+    const activeTheme = +props.theme === 1? `_1` : +props.theme === 2? `_2` : '';
+
 
     const elem = obj.text.map((item, i) => {
         return (
@@ -21,11 +23,11 @@ const AboutMe = (props) => {
 
 
     return (
-        <div className="about_me" id='about_me'>
+        <div className={`about_me about_me${activeTheme}`} id='about_me'>
             <div className="container">
-                <Title text={obj.title}/>
+                <Title text={obj.title} theme={props.theme}/>
                 <div className="about_me__block">
-                    <TextArea>
+                    <TextArea theme={props.theme}>
                         <div className="">
                             {elem}
                         </div>

@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.dot {
+    background-color: $primary_dark_1;
+
+    &_1 {
+        background-color: $primary_dark_1;    
+    }
+
+    &_2 {
+        background-color: $primary_dark_1;
+    }
+}

@@ -8,6 +8,8 @@ import './footer.scss';
 
 const Footer = (props) => {
     const obj = props.language === 0? footer : footerUA;
+    const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
+
 
     const elems = obj.libList.map((item, i) => {
         return (
@@ -19,7 +21,7 @@ const Footer = (props) => {
 
     return (
         <>
-            <div className="footer" id='footer'>
+            <div className={`footer footer${activeTheme}`} id='footer'>
                 <div className="footer__info">
                     <p>
                         {obj.framework}

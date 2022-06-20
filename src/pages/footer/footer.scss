@@ -1,12 +1,23 @@
+@import '../../styles/variables.scss';
+
+
 .footer {
     min-height: 150px;
-    margin-top: 40px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
 
-    background-color: #4e7f81;
+    background-color: $primary_dark_1;
     color: white;
+
+    &_1 {
+        background-color: $primary_dark_2;
+    }
+
+    &_2 {
+        background-color: $primary_dark_3;
+    }
+
     &__info{
         align-self: center;
 

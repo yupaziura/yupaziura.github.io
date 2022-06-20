@@ -1,5 +1,10 @@
+@import '../../styles/variables.scss';
+
 .skills {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    &_2{
+        background-color: $primary_main_3;
+    }
 }
