@@ -30,10 +30,10 @@ const Nav = (props) => {
                     <a className="nav__link" href="#footer">{obj.nav[4]}</a>
                 </div>
 
-                <button onClick={()=>props.setLanguage(1)} className="nav__linkblock nav__linkblock_language">
+                <button onClick={()=>props.setLanguage(1)} className={`nav__linkblock nav__linkblock_language ${props.language === 1? 'nav__linkblock_language_active' : ''}`}>
                 🇺🇦
                 </button>
-                <button onClick={()=>props.setLanguage(0)} className="nav__linkblock nav__linkblock_language">
+                <button onClick={()=>props.setLanguage(0)} className={`nav__linkblock nav__linkblock_language ${props.language === 0? 'nav__linkblock_language_active' : ''}`}>
                 🇬🇧
                 </button>
             </nav>
