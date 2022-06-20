@@ -6,7 +6,7 @@ import {studies, studiesUA} from '../../db/db';
 import Title from '../../components/title/title';
 import MyTimelineItem from '../../components/timeline-item/timeline-item';
 import Timeline from '@mui/lab/Timeline';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
+import SchoolIcon from '@mui/icons-material/School';
 
 // styles
 import './studies.scss';
@@ -21,7 +21,7 @@ const Studies = (props) => {
   const elems = obj.stud.map ((item, i)=> {
     return (
       <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval}>
-        <FastfoodIcon />
+        <SchoolIcon />
       </MyTimelineItem>
     )
   })

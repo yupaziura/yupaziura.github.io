@@ -4,7 +4,7 @@ import {experience, experienceUA} from '../../db/db';
 // conponents
 import Title from "../../components/title/title";
 import Timeline from '@mui/lab/Timeline';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
+import WorkIcon from '@mui/icons-material/Work';
 import MyTimelineItem from '../../components/timeline-item/timeline-item';
 
 
@@ -17,7 +17,7 @@ const Experience = (props) => {
     const elems = obj.work.map ((item, i)=> {
         return (
           <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval} company={item.company}>
-            <FastfoodIcon />
+            <WorkIcon />
           </MyTimelineItem>
         )
     })

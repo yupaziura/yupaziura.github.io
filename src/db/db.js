@@ -11,12 +11,22 @@ const mainUA = {
 
 const aboutMe = {
     title: 'About me',
-    text: ''
+    text: [
+        `My name is Yuliia. I am 23 and I am from Kyiv. I graduated from the Lublin University of Technology. Having received a diploma of an engineer-architect, I returned to Kyiv. I work as a developer assistant in the Archimatika architectural bureau. `,
+        `I started my career as a BIM-assistant. My responsibilities included writing scripts to automate the workflows of architects, getting fast calculations, creating parametric geometry.`,
+        `Since 2020, I have moved to the position of assistant developer. I was in charge of creating and maintaining a database of employees. Soon I began to work with this data, transforming it and making various kinds of presentations (Power BI, creating a website).`,
+        `Now I am open to offers and new job as a trainee/junior web-developer.`
+    ],
 }
 
 const aboutMeUA = {
     title: 'Про мене',
-    text: ''
+    text: [
+        `Мене звати Юля. Мені 23 роки і я з Києва. Я закінчила Люблінську Політехніку. Отримавши диплом інженера архітектора, я повернулася до Києва. Я працюю помічником розробника у архітектурному бюро "Архіматика".`,
+        `Я розпочала свою кар'єру з позиції BIM-ассистента. До моїх обов'язків входило написання скриптів для автоматизації робочих процесів архітекторів, отримання швидких розрахунків, створення параметричної геометрії.`,
+        `З 2020 року я перейшла на позицію помічника розробника. Я займалася створенням та підтримкою бази даних співробітників. Незабаром я почала працювати з цими даними, обробляючи їх і роблячи різноманітні презентації (звіти в Power BI, створення вебсайту).`,
+        `Зараз я відкрита для пропозицій та роботи у якості стажера/молодшого веб-розробника.`
+    ],
 }
 
 const studies = {
@@ -33,12 +43,12 @@ const studies = {
     },
      {
         title:'Udemy courses. Web-development',
-        interval: '20021 - 2022',
+        interval: '2021 - 2022',
         text:' I completed courses in web-development (HTML, CSS)'
     },
      {
         title:'Udemy courses. Javascript + React',
-        interval: '20021 - 2022',
+        interval: '2021 - 2022',
         text:' I completed courses in Javascript + React'
     }]
 }
@@ -57,12 +67,12 @@ const studiesUA = {
     },
      {
         title:'Udemy курси. Веб-розробка',
-        interval: '20021 - 2022',
+        interval: '2021 - 2022',
         text:' Закінчила курси по веб-розробці (HTML, CSS)'
     },
     {
         title:'Udemy курси. JavaScript + React',
-        interval: '20021 - 2022',
+        interval: '2021 - 2022',
         text:'Закінчила курси по JavaScript + React'
     }]
 }
@@ -85,6 +95,18 @@ const skills = {
         {
             title: 'React',
             text: 'Basic knowledge and practice in React framework.'
+        },
+        {
+            title: 'Archicad',
+            text: 'Advanced knowledge and tones of projects.'
+        },
+        {
+            title: 'Grasshopper + Rhino',
+            text: 'Advanced knowledge, many working scripts.'
+        },
+        {
+            title: 'Adobe Illustrator',
+            text: 'Advanced knowledge and practice.'
         },
         {
             title: 'Language. English',
@@ -115,6 +137,18 @@ const skillsUA = {
         {
             title: 'React',
             text: 'Базові знання та практика на фреймворці React.'
+        },
+        {
+            title: 'Archicad',
+            text: 'Продвинуті знання та купа проектів :)'
+        },
+        {
+            title: 'Grasshopper + Rhino',
+            text: 'Продвинуті знання, робочі скріпти.'
+        },
+        {
+            title: 'Adobe Illustrator',
+            text: 'Продвинуті знання та практика.'
         },
         {
             title: 'Мова. Англійська',
