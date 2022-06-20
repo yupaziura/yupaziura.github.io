@@ -26,7 +26,7 @@ const MyTimelineItem = (props) =>{
 
     const elem = 
         <>
-            <TimelineContent sx={{py: 4}}>
+            <TimelineContent >
                 <TextArea>
                     <h3>
                         {props.header}

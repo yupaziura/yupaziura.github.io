@@ -1,6 +1,8 @@
 .text_area{
     max-width: 350px;
+    height: 100%;
     padding: 30px;
+    box-sizing: border-box;
     border-radius: 10px;
 
     background-color:rgb(241, 241, 241);
