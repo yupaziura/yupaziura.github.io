@@ -28,16 +28,15 @@ const Studies = (props) => {
 
 
     return (
-        <>
-            <div className="container" id='studies'>
-                <Title text = {obj.title}/>
+      <>
+        <div className="container" id='studies'>
+          <Title text = {obj.title}/>
 
-                <Timeline position="alternate">
-{elems}
-      
-    </Timeline>
-            </div>
-        </>
+          <Timeline position="alternate">
+            {elems}
+          </Timeline>
+        </div>
+      </>
     )
 }
 

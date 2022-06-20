@@ -1,25 +1,18 @@
 // basic
+import * as React from 'react';
 
 // components
-import Title from '../../components/title/title';
 import TextArea from '../text-area/text-area';
-
-// styles
-
-
-import * as React from 'react';
-import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
-import Typography from '@mui/material/Typography';
+
+
+// styles
+
+
 
 
 const MyTimelineItem = (props) =>{
@@ -31,6 +24,9 @@ const MyTimelineItem = (props) =>{
                     <h3>
                         {props.header}
                     </h3>
+                    <h4>
+                        {props.company}
+                    </h4>
                     <p spyle={{}}>{props.interval}</p>
                     <br/>
                     <p>{props.text}</p>

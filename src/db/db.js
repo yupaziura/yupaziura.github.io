@@ -140,11 +140,63 @@ const footerUA = {
 }
 
 const experience = {
-    titlle: 'Experience'
+    titlle: 'Experience',
+    work: [
+        {
+            title: 'Inventarisation. Practice',
+            company: 'Lublin University of Technology',
+            interval: '2017 - 2017',
+            text: 'Inventarisation of catholic church of st. Ignacy Loyola (main entrance).'
+        },
+        {
+            title: 'Inventarisation. Practice',
+            company: 'Archimatika',
+            interval: '2018 - 2018',
+            text: 'Inventarisation of residential building using CloudPoints.'
+        },
+        {
+            title: 'BIM-assistant',
+            company: 'Archimatika',
+            interval: '2019 - 2020',
+            text: 'Automation of workflows, creation of parametric geometry using Grasshopper.'
+        },
+        {
+            title: 'Developer-assistant',
+            company: 'Archimatika',
+            interval: '2020 - now',
+            text: 'Creation of workers database based on Dataverse and supporting. Working with data, their transformation and presentation.'
+        },
+    ]
 }
 
 const experienceUA = {
-    titlle: 'Досвід'
+    titlle: 'Досвід',
+    work: [
+        {
+            title: 'Інвентаризація. Практика',
+            company: 'Люблінська Політехніка',
+            interval: '2017 - 2017',
+            text: 'Інвентаризація костелу св. Ігнатія Лойолі (головний вхід).'
+        },
+        {
+            title: 'Інвентаризація. Практика',
+            company: 'Archimatika',
+            interval: '2018 - 2018',
+            text: 'Інвентаризація житловоі будівлі з використанням техніки CloudPoints.'
+        },
+        {
+            title: 'BIM-асистент',
+            company: 'Archimatika',
+            interval: '2019 - 2020',
+            text: 'Автоматизація робочих процесів, створення параметричної геометрії з використанням Grasshopper.'
+        },
+        {
+            title: 'Помічник розробника',
+            company: 'Archimatika',
+            interval: '2020 - зараз',
+            text: 'Створення бази данних працівників на базі Dataverse. Робота з данними, їх трансформація та презентація.'
+        },
+    ]
 }
 
 
