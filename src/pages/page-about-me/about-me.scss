@@ -3,12 +3,8 @@
 
     &__block {
         
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(auto-fill, minmax(200px, auto));
-        grid-auto-rows: minmax(200px, auto) ;
-        gap: 100px;
-        justify-content: space-between;
+        display: flex;
+        justify-content: space-around;
         flex-wrap: wrap;
 
     }
@@ -18,7 +14,7 @@
         height: 450px;
         background-color: rgb(78, 127, 129);
         border-radius: 10px;
-        margin: 0 auto;
+        
         align-self: center;
     }
 }
