@@ -1,4 +1,5 @@
 // basic
+import {aboutMe, aboutMeUA} from '../../db/db';
 
 // components
 import Title from '../../components/title/title';
@@ -7,11 +8,13 @@ import TextArea from '../../components/text-area/text-area';
 // styles
 import './about-me.scss';
 
-const AboutMe = () => {
+const AboutMe = (props) => {
+    const obj = props.language === 0? aboutMe : aboutMeUA;
+
     return (
         <div className="about_me" id='about_me'>
             <div className="container">
-                <Title text='About me'/>
+                <Title text={obj.title}/>
                 <div className="about_me__block">
                     <TextArea>
                         <div className="">

@@ -1,4 +1,5 @@
 // basic
+import {experience, experienceUA} from '../../db/db';
 
 // conponents
 import Title from "../../components/title/title";
@@ -6,11 +7,13 @@ import Title from "../../components/title/title";
 // styles
 import './experience.scss';
 
-const Experience = () => {
+const Experience = (props) => {
+    const obj = props.language === 0? experience : experienceUA;
+
     return ( 
         <>
             <div className="container" id='experience'>
-                <Title text={'Experience'} />
+                <Title text={obj.titlle} />
 
                 <div className="experience">
                 <div className="experience__item experience__item_1"></div>

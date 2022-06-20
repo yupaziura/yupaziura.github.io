@@ -16,7 +16,7 @@ const MainPage = (props) => {
     return (
         <div className="main">
             <Nav language={props.language} setLanguage={props.setLanguage}/>
-            <div className="main__content">
+            <div className="container">
                 
                 <div className="main__photo">
                     <img src="" alt="" />

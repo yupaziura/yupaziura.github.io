@@ -18,11 +18,11 @@ const App = () => {
     return (
       <>
         <MainPage language={language} setLanguage={setLanguage}/>
-        <AboutMe/>
-        <Studies/>
-        <Experience/>
-        <Skills/>
-        <Footer/>
+        <AboutMe language={language} />
+        <Studies language={language} />
+        <Experience language={language} />
+        <Skills language={language} />
+        <Footer language={language} />
     </>
     )
 }

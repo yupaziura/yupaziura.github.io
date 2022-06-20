@@ -1,32 +1,34 @@
 .main {
     height: 100vh;
     background-color: cadetblue;
+   
 
-    &__content {
-        min-width: 900px;
-        margin: (100vh/5) 7% 0 7%;
+    .container {
+        margin: (100vh/4) auto 0 auto;
         display: flex;
         justify-content: space-between;
-        
-        
+        flex-wrap: wrap;
+   
     }
 
     &__photo {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         border-radius: 100%;
         background-color: #fff;
+        margin-right: 25px;
     }
 
     &__headers {
+        max-width: 600px;
         align-self: center;
         color: #fff;
 
         h1 {
-            font-size: 50px;
+            font-size: 45px;
         }
         h2 {
-            font-size: 30px;
+            font-size: 25px;
             margin-top: 25px;
         }
     }

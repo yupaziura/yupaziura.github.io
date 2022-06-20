@@ -1,4 +1,5 @@
 // basic
+import {skills, skillsUA} from '../../db/db';
 
 // conponents
 import Title from "../../components/title/title";
@@ -7,19 +8,20 @@ import Card from "../../components/card/card";
 // styles
 import './skills.scss';
 
-const Skills = () => {
+const Skills = (props) => {
+    const obj = props.language === 0? skills : skillsUA;
+
+    const cards = obj.skills.map((item, i) => {
+        return (
+            <Card key={i} header={item.title} text={item.text}/>  
+        )
+    })
     return (
         <div id='skills'>
-            <Title text={'Skills'}/>
+            <Title text={obj.title}/>
             <div className="container">
                 <div className="skills">
-                    <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
-                    <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
-                    <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
-                    <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
-                    <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
-                    <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
-                    <Card header='JavaScript' text='Work with Javascript more than 1 year'/>
+                    {cards}
                 </div>
             </div>
         </div>

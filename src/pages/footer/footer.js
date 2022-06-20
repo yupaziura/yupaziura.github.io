@@ -1,24 +1,33 @@
 // basic
+import {footer, footerUA} from '../../db/db';
 
 // conponents
 
 // styles
 import './footer.scss';
 
-const Footer = () => {
+const Footer = (props) => {
+    const obj = props.language === 0? footer : footerUA;
+
+    const elems = obj.libList.map((item, i) => {
+        return (
+                <li key={i}>
+                    {item}
+                </li>
+        )
+    })
+
     return (
         <>
             <div className="footer" id='footer'>
                 <div className="footer__info">
                     <p>
-                        This website was created using React framework.
+                        {obj.framework}
                         <br/><br/>
-                        Libraries I used in this project:
+                        {obj.libraries}
                     </p>
                     <ul>
-                        <li>
-                            Material UI
-                        </li>
+                       {elems} 
                     </ul>
                 </div>
 
