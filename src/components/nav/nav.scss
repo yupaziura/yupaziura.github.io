@@ -1,7 +1,17 @@
+@import '../../styles/variables.scss';
+
+
 .nav {
     height: 70px;
-    background-color: rgb(78, 127, 129);
+    background-color: $primary_dark_1;
     box-shadow: 0 10px 20px rgba(49, 49, 49, 0.577);
+
+    &_1{
+        background-color: $primary_dark_2;
+    }
+    &_2{
+        background-color: $primary_dark_3;
+    }
 
     display: flex;
     justify-content: flex-end;
@@ -17,7 +27,7 @@
             font-weight: bold;
             font-size: 18px;
 
-            color:rgba(240, 248, 255, 0.894);
+            color:white;
             transition: all 0.2s;
             &:hover {
                 font-size: 20px;

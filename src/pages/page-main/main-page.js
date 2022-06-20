@@ -11,11 +11,12 @@ import './main-page.scss';
 
 const MainPage = (props) => {
     const obj = props.language === 0? main : mainUA;
-    
+    const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
+
 
     return (
-        <div className="main">
-            <Nav language={props.language} setLanguage={props.setLanguage}/>
+        <div className={`main main${activeTheme}`}>
+            <Nav language={props.language} setLanguage={props.setLanguage} setTheme={props.setTheme} theme={props.theme}/>
             <div className="container">
                 
                 <div className="main__photo">

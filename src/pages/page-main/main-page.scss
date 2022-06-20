@@ -1,6 +1,16 @@
+@import '../../styles/variables.scss';
+
 .main {
     height: 100vh;
-    background-color: cadetblue;
+    background-color: $primary_main_1;
+
+    &_1 {
+        background-color: $primary_main_2;
+    }
+
+    &_2 {
+        background-color: $primary_main_3;
+    }
    
 
     .container {
