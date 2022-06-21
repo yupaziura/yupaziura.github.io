@@ -17,10 +17,12 @@ import './studies.scss';
 
 const Studies = (props) => {
   const obj = props.language === 0? studies : studiesUA;
+  const activeTheme = +props.theme === 1? `_1` : +props.theme === 2? `_2` : '';
+
 
   const elems = obj.stud.map ((item, i)=> {
     return (
-      <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval}>
+      <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval} theme={props.theme}>
         <SchoolIcon />
       </MyTimelineItem>
     )
@@ -28,15 +30,15 @@ const Studies = (props) => {
 
 
     return (
-      <>
+      <div className={`studies studies${activeTheme}`}>
         <div className="container" id='studies'>
-          <Title text = {obj.title}/>
+          <Title text = {obj.title} theme={props.theme}/>
 
           <Timeline position="alternate">
             {elems}
           </Timeline>
         </div>
-      </>
+      </div>
     )
 }
 

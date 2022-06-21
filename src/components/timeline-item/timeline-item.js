@@ -11,16 +11,18 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 
 // styles
-
+import './timeline-item.scss';
 
 
 
 const MyTimelineItem = (props) =>{
+    const activeTheme = +props.theme === 1? `_1` : +props.theme === 2? `_2` : '';
+
 
     const elem = 
         <>
             <TimelineContent >
-                <TextArea>
+                <TextArea theme={props.theme}>
                     <h3>
                         {props.header}
                     </h3>
@@ -38,7 +40,7 @@ const MyTimelineItem = (props) =>{
         <>
             <TimelineSeparator sx={{mx: 3}}>
                     <TimelineConnector />
-                    <TimelineDot sx={{p:2}}>
+                    <TimelineDot className={`dot dot${activeTheme}`} sx={{p:2}}>
                         {props.children}
                     </TimelineDot>
                     <TimelineConnector />

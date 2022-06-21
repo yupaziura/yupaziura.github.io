@@ -1,5 +1,13 @@
+@import '../../styles/variables.scss';
+
 .about_me {
     padding-bottom: 20px;
+    // &_1{
+    //     background-color: $primary_light_3;
+    // }
+    &_2{
+        background-color: $primary_main_3;
+    }
 
     &__block {
         

@@ -13,10 +13,12 @@ import './experience.scss';
 
 const Experience = (props) => {
     const obj = props.language === 0? experience : experienceUA;
+    const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
+
 
     const elems = obj.work.map ((item, i)=> {
         return (
-          <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval} company={item.company}>
+          <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval} company={item.company} theme={props.theme}>
             <WorkIcon />
           </MyTimelineItem>
         )
@@ -24,8 +26,9 @@ const Experience = (props) => {
 
     return ( 
         <>
-            <div className="container" id='experience'>
-                <Title text={obj.titlle} />
+            <div className={` experience experience${activeTheme}`} id='experience'>
+                <div className="container">
+                <Title text={obj.titlle} theme={props.theme}/>
 
                 {/* <div className="experience">
                 <div className="experience__item experience__item_1"></div>
@@ -41,6 +44,8 @@ const Experience = (props) => {
                 <Timeline position="alternate">
                     {elems}
                 </Timeline>
+                </div>
+                
             </div>
         </>
     )

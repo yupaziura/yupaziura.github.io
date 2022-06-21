@@ -10,19 +10,23 @@ import './skills.scss';
 
 const Skills = (props) => {
     const obj = props.language === 0? skills : skillsUA;
+    const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
+
 
     const cards = obj.skills.map((item, i) => {
         return (
-            <Card key={i} header={item.title} text={item.text}/>  
+            <Card key={i} header={item.title} text={item.text} theme={props.theme}/>  
         )
     })
     return (
-        <div id='skills'>
-            <Title text={obj.title}/>
+        <div id='skills' className={`skills skills${activeTheme}`}>
             <div className="container">
+            <Title text={obj.title} theme={props.theme}/>
+            
                 <div className="skills">
                     {cards}
-                </div>
+               
+            </div>
             </div>
         </div>
     )

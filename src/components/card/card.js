@@ -10,7 +10,7 @@ const Card = (props) => {
     return (
         <>
             <div className="card">
-                <TextArea>
+                <TextArea theme={props.theme}>
                     <div className="card__img">
                         <img src="" alt="" />
                     </div>

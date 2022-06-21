@@ -5,8 +5,7 @@
     background-color: $primary_main_1;
 
     &_1 {
-        background-color: $primary_main_2;
-    }
+        background: linear-gradient(to bottom right, $primary_main_2, $secondary_light_2);    }
 
     &_2 {
         background-color: $primary_main_3;

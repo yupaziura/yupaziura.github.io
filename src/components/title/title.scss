@@ -1,7 +1,18 @@
+@import '../../styles/variables.scss';
+
+
 .header_h3 {
-    color: rgb(78, 127, 129);
-    margin: 65px 0 45px 0;
+    color: $primary_dark_1;
+    margin: 0 0 45px 0;
 
     font-size: 35px;
     text-align: center;
+
+    &_1 {
+        color: $primary_dark_2;
+    }
+
+    &_2 {
+        color: white;
+    }
 }
