@@ -1,12 +1,14 @@
 const main = {
     nav: ['About me', 'Studies and Courses', 'Experience', 'Skills', 'Contact'],
     title: 'Hi!🙋🏻‍♀️  My name is Yuliia Paziura',
-    subtitle: 'I am a web-developer'
+    subtitle: 'I am a web-developer',
+    theme: ['light themme', 'spring themme', 'dark themme']
 }
 const mainUA = {
     nav: ['Про мене', 'Навчання та курси', 'Досвід', 'Навички', 'Контакти'],
     title: `Привіт!🙋🏻‍♀️  Мене звати Пазюра Юлія`,
-    subtitle: 'Я - веб-розробник'
+    subtitle: 'Я - веб-розробник',
+    theme: ['світла тема', 'весняна тема', 'темна тема']
 }
 
 const aboutMe = {

@@ -1,6 +1,7 @@
 // basic
 import {React, useState} from 'react';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
+import {main, mainUA} from '../../db/db';
 
 // components
 import BrushIcon from '@mui/icons-material/Brush';
@@ -10,6 +11,8 @@ import './switcher.scss';
 
 const ThemeSwitcher = (props) => {
     const [show, setShow] = useState(false);
+
+    const obj = props.language === 0? main : mainUA;
     const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
 
 
@@ -32,9 +35,9 @@ const ThemeSwitcher = (props) => {
         
         <div className={`menu menu${activeClass} menu${activeTheme}`}>
             <ul>
-                <li onClick={()=>choose(0)} className="menu__item">1</li>
-                <li onClick={()=>choose(1)} className="menu__item">2</li>
-                <li onClick={()=>choose(2)} className="menu__item">3</li>
+                <li onClick={()=>choose(0)} className="menu__item">🌞  {obj.theme[0]}</li>
+                <li onClick={()=>choose(1)} className="menu__item">💐  {obj.theme[1]}</li>
+                <li onClick={()=>choose(2)} className="menu__item">🌘  {obj.theme[2]}</li>
             </ul>
         </div>
         </div>

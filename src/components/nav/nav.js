@@ -38,7 +38,7 @@ const Nav = (props) => {
                 <button onClick={()=>props.setLanguage(0)} className={`nav__linkblock nav__linkblock_language ${props.language === 0? 'nav__linkblock_language_active' : ''}`}>
                 🇬🇧
                 </button>
-                <ThemeSwitcher setTheme={props.setTheme} theme={props.theme}/>
+                <ThemeSwitcher language={props.language} setTheme={props.setTheme} theme={props.theme}/>
             </nav>
         </>
     )

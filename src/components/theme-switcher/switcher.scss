@@ -5,30 +5,48 @@
     background-color: $primary_dark_1;
     display: none;
     position: absolute;
-    width: 100px;
-    height: 70px;
+    // width: 200px;
+    // height: 80px;
     top: 58px;
     right: 20px;
-    padding: 10px;
+    // padding: 10px;
     border-radius: 3px;
     color: white;
     ul {
         list-style-type: none;
-        line-height: 23px;
+        // line-height: 27px;
         margin: 0 auto;
         li {
             text-align: center;
+            padding: 5px;
+            width: 200px;
+            transition: all 0.3s;
             &:hover {
                 cursor: pointer;
+                background-color: $secondary_light_1;
             }
         }
     }
 
     &_1{
         background-color: $primary_dark_2;
+        ul {
+            li {
+                &:hover {
+                    background-color: $secondary_dark_2;  
+                }
+            }
+        }
     }
     &_2{
         background-color: $primary_dark_3;
+        ul {
+            li {
+                &:hover {
+                    background-color: $secondary_light_3;  
+                }
+            }
+        }
     }
    
 
