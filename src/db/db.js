@@ -84,38 +84,47 @@ const skills = {
     skills: [
         {
             title: 'HTML',
+            rate: 7,
             text: 'Experience in semantic and adaptive layout.'
         },
         {
             title: 'CSS',
+            rate: 7,
             text: 'Expirience in pixel-perfect layouts.'
         },
         {
             title: 'JavaScript',
+            rate: 5,
             text: 'Basic knowledge of vanila JS, OOP principals.'
         },
         {
             title: 'React',
+            rate: 4,
             text: 'Basic knowledge and practice in React framework.'
         },
         {
             title: 'Archicad',
+            rate: 8,
             text: 'Advanced knowledge and tones of projects.'
         },
         {
             title: 'Grasshopper + Rhino',
+            rate: 9,
             text: 'Advanced knowledge, many working scripts.'
         },
         {
             title: 'Adobe Illustrator',
+            rate: 9,
             text: 'Advanced knowledge and practice.'
         },
         {
             title: 'Language. English',
+            rate: 4,
             text: 'Intermediate (B1)'
         },
         {
             title: 'Language. Polish',
+            rate: 7,
             text: 'Upper intermediate (B2)'
         }
     ]
@@ -126,38 +135,47 @@ const skillsUA = {
     skills: [
         {
             title: 'HTML',
+            rate: 7,
             text: 'Досвід в семантичній та адаптивній верстці.'
         },
         {
             title: 'CSS',
+            rate: 7,
             text: 'Досвід в pixel-perfect верстці.'
         },
         {
             title: 'JavaScript',
+            rate: 5,
             text: 'Базові знання JavaScript та принципів ООП.'
         },
         {
             title: 'React',
+            rate: 4,
             text: 'Базові знання та практика на фреймворці React.'
         },
         {
             title: 'Archicad',
+            rate: 8,
             text: 'Продвинуті знання та купа проектів :)'
         },
         {
             title: 'Grasshopper + Rhino',
+            rate: 9,
             text: 'Продвинуті знання, робочі скріпти.'
         },
         {
             title: 'Adobe Illustrator',
+            rate: 9,
             text: 'Продвинуті знання та практика.'
         },
         {
             title: 'Мова. Англійська',
+            rate: 4,
             text: 'Середній (B1)'
         },
         {
             title: 'Мова. Польська',
+            rate: 7,
             text: 'Вище середнього (B2)'
         }
     ]

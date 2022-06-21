@@ -15,7 +15,7 @@ const Skills = (props) => {
 
     const cards = obj.skills.map((item, i) => {
         return (
-            <Card key={i} header={item.title} text={item.text} theme={props.theme}/>  
+            <Card rate={item.rate} key={i} header={item.title} text={item.text} theme={props.theme}/>  
         )
     })
     return (

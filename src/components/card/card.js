@@ -2,11 +2,14 @@
 
 // conponents
 import TextArea from '../text-area/text-area';
+import Rating from '@mui/material/Rating';
 
 // styles
 import './card.scss';
 
 const Card = (props) => {
+    const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
+
     return (
         <>
             <div className="card">
@@ -16,6 +19,7 @@ const Card = (props) => {
                     </div>
                     <br/>
                     <h3> {props.header}</h3>
+                    <Rating className={`rate rate${activeTheme}`} readOnly size="small" max={10} value={props.rate}/>
                     <p>
                         {props.text}
                     </p>

@@ -38,12 +38,12 @@ const MyTimelineItem = (props) =>{
 
     const separator = 
         <>
-            <TimelineSeparator sx={{mx: 3}}>
-                    <TimelineConnector className={`dot dot${activeTheme}`} />
-                    <TimelineDot className={`dot dot${activeTheme}`} sx={{p:2}}>
+            <TimelineSeparator sx={{mx: 3}} className={`dot dot${activeTheme}`}>
+                    <TimelineConnector  />
+                    <TimelineDot  sx={{p:2}}>
                         {props.children}
                     </TimelineDot>
-                    <TimelineConnector className={`dot dot${activeTheme}`} />
+                    <TimelineConnector  />
                 </TimelineSeparator>
         </>
 

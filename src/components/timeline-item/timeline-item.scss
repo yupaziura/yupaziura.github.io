@@ -1,14 +1,22 @@
 @import '../../styles/variables.scss';
 
 .dot {
+
+    span {
+        background-color: $secondary_dark_1;
+    }
     
-    background-color: $secondary_dark_1;
 
     &_1 {
-        background-color: $primary_dark_2;    
+        span {
+            background-color: $primary_dark_2;    
+        }
     }
 
     &_2 {
-        background-color: $secondary_light_3;
+        span {
+            background-color: $secondary_light_3;  
+        }
+       
     }
 }
