@@ -200,25 +200,45 @@ const experience = {
             title: 'Inventarisation. Practice',
             company: 'Lublin University of Technology',
             interval: '2017 - 2017',
-            text: 'Inventarisation of catholic church of st. Ignacy Loyola (main entrance).'
+            text: 'Inventarisation of catholic church of st. Ignacy Loyola (main entrance).',
+            detail: ['taking measurements of the main entrance doors',
+                    'creating a drawing of the front',
+                    'creating a section drawing ',
+                    'detail drawing (steel edging)'
+                ]
         },
         {
             title: 'Inventarisation. Practice',
             company: 'Archimatika',
             interval: '2018 - 2018',
-            text: 'Inventarisation of residential building using CloudPoints.'
+            text: 'Inventarisation of residential building using CloudPoints.',
+            detail: ['work with CloudPoints',
+                    'modeling parts of the building (-1 floor, 0 floor, 3 floor)',
+                    'measurements for elevation and sections',
+                    'work in Archicad, use BIM'
+                ]
         },
         {
             title: 'BIM-assistant',
             company: 'Archimatika',
             interval: '2019 - 2020',
-            text: 'Automation of workflows, creation of parametric geometry using Grasshopper.'
+            text: 'Automation of workflows, creation of parametric geometry using Grasshopper.',
+            detail: ['creating scripts for one-time issue',
+                    'creating comprehensive solutions',
+                    'creating scripts for routine calculations',
+                    'work in Grasshopper, Rhino, Archicad, Revit, experience in writing code on Python/C#'
+                ]
         },
         {
             title: 'Developer-assistant',
             company: 'Archimatika',
             interval: '2020 - now',
-            text: 'Creation of workers database based on Dataverse and supporting. Working with data, their transformation and presentation.'
+            text: 'Creation of workers database based on Dataverse and supporting. Working with data, their transformation and presentation.',
+            detail: ['deployment workers database',
+                    'updating data in DB',
+                    'creating organizational website using JavaScript/Typescript, React',
+                    'work in D365 Human Resources, PowerBI, experience in PortgreSQL, Hasura'
+                ]
         },
     ]
 }
@@ -230,25 +250,45 @@ const experienceUA = {
             title: 'Інвентаризація. Практика',
             company: 'Люблінська Політехніка',
             interval: '2017 - 2017',
-            text: 'Інвентаризація костелу св. Ігнатія Лойолі (головний вхід).'
+            text: 'Інвентаризація костелу св. Ігнатія Лойолі (головний вхід).',
+            detail: ['обміри дверей головного входу',
+                    'створення креслення фронтальної частини',
+                    'створення круслення перерізу',
+                    'створення креслення деталі (металева окантовка)'
+                ]
         },
         {
             title: 'Інвентаризація. Практика',
             company: 'Archimatika',
             interval: '2018 - 2018',
-            text: 'Інвентаризація житловоі будівлі з використанням техніки CloudPoints.'
+            text: 'Інвентаризація житловоі будівлі з використанням техніки CloudPoints.',
+            detail: ['робота з CloudPoints',
+                    'моделювання частин будинку (-1 рівень, 0 рівень, 3 рівень)',
+                    'обміри фасадів і перерізів',
+                    'робота в Archicad, use BIM'
+                ]
         },
         {
             title: 'BIM-асистент',
             company: 'Archimatika',
             interval: '2019 - 2020',
-            text: 'Автоматизація робочих процесів, створення параметричної геометрії з використанням Grasshopper.'
+            text: 'Автоматизація робочих процесів, створення параметричної геометрії з використанням Grasshopper.',
+            detail: ['створення скріптв для вирішення одноразових задач',
+                    'створення комплексних рішень',
+                    'створення скріптув для рутинних розрахунків',
+                    'робота в Grasshopper, Rhino, Archicad, Revit, досвід написання коду на Python/C#'
+                ]
         },
         {
             title: 'Помічник розробника',
             company: 'Archimatika',
             interval: '2020 - зараз',
-            text: 'Створення бази данних працівників на базі Dataverse. Робота з данними, їх трансформація та презентація.'
+            text: 'Створення бази данних працівників на базі Dataverse. Робота з данними, їх трансформація та презентація.',
+            detail: ['розгортання бази данних працівників',
+                    'оновлення данних в базі данних',
+                    'створення корпоративного сайту використовуючи JavaScript/Typescript, React',
+                    'робота в D365 Human Resources, PowerBI, досвід в PortgreSQL, Hasura'
+                ]
         },
     ]
 }

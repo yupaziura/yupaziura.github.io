@@ -1,6 +1,17 @@
 @import '../../styles/variables.scss';
 
 .experience {
+    .text_area {
+        height: 250px;
+        transition: all 0.3s;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 1px 1px 35px rgba(35, 35, 35, 0.696);
+        }
+    }
+    li {
+        text-align: start;
+    }
     padding-bottom: 40px;
     // height: 750px;
     // display: grid;

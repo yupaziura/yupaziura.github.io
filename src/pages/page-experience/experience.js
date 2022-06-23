@@ -18,7 +18,7 @@ const Experience = (props) => {
 
     const elems = obj.work.map ((item, i)=> {
         return (
-          <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval} company={item.company} theme={props.theme}>
+          <MyTimelineItem arr={item.detail} rotetable={true} key={i} side={0} text={item.text} header={item.title} interval={item.interval} company={item.company} theme={props.theme}>
             <WorkIcon />
           </MyTimelineItem>
         )
