@@ -8,6 +8,8 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import ReactCardFlip from "react-card-flip";
+
 
 
 // styles
@@ -50,9 +52,14 @@ const MyTimelineItem = (props) =>{
     const elem = 
         <>
             <TimelineContent  onClick={() => {setSide(!side)}} >
+                <ReactCardFlip isFlipped={side} flipDirection="horizontal">
                 <TextArea theme={props.theme} >
-                    {!props.rotetable? mainContent : !side? mainContent  : detailedContent}
+                    {mainContent}
                 </TextArea>
+                <TextArea theme={props.theme} >
+                    {detailedContent}
+                </TextArea>
+                </ReactCardFlip>
             </TimelineContent>
         </>
 
