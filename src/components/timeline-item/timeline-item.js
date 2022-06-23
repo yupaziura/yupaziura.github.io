@@ -51,16 +51,24 @@ const MyTimelineItem = (props) =>{
 
     const elem = 
         <>
-            <TimelineContent  onClick={() => {setSide(!side)}} >
-                <ReactCardFlip isFlipped={side} flipDirection="horizontal">
+        {props.rotable === false? 
+            <TimelineContent >
                 <TextArea theme={props.theme} >
                     {mainContent}
-                </TextArea>
-                <TextArea theme={props.theme} >
-                    {detailedContent}
-                </TextArea>
+                </TextArea> 
+            </TimelineContent>
+            : 
+            <TimelineContent   onClick={() => {setSide(!side)}}>
+                <ReactCardFlip isFlipped={side} flipDirection="horizontal">
+                    <TextArea theme={props.theme} >
+                        {mainContent}
+                    </TextArea>
+                    <TextArea theme={props.theme} >
+                        {detailedContent}
+                    </TextArea>
                 </ReactCardFlip>
             </TimelineContent>
+        }
         </>
 
     const separator = 

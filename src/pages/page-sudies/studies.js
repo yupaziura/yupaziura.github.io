@@ -22,7 +22,7 @@ const Studies = (props) => {
 
   const elems = obj.stud.map ((item, i)=> {
     return (
-      <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval} theme={props.theme}>
+      <MyTimelineItem key={i} side={0} text={item.text} header={item.title} interval={item.interval} theme={props.theme} rotable={false}>
         <SchoolIcon />
       </MyTimelineItem>
     )
