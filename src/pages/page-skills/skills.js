@@ -13,9 +13,11 @@ const Skills = (props) => {
     const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
 
 
-    const cards = obj.skills.map((item, i) => {
+    const cards = obj.skills.map(({rate, title, text, Image}, i) => {
         return (
-            <Card rate={item.rate} key={i} header={item.title} text={item.text} theme={props.theme}/>  
+            <Card rate={rate} key={i}  header={title} text={text} theme={props.theme}>
+                <span><Image className='skills__icons'/></span>
+            </Card>  
         )
     })
     return (

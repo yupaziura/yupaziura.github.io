@@ -4,31 +4,31 @@
 
 .card {
     width: 250px;
-    height: 350px;
+    height: 390px;
 
     margin: 0 10px 40px 0;
     &__img {
         width: 100%;
-        height: 150px;
+        height: 190px;
 
-        background-color: rgb(78, 127, 129);
     }
 
-    .rate {
-        span {
-            color: $secondary_light_1;
-        }
     
-        &_1{
-            span{
-                color: $secondary_dark_2; 
-            }
+        svg  {
+            fill: $secondary_dark_1;
         }
-        &_2{
-            span{
-                color: $secondary_light_3; 
-            }
-        }
-    }
 
 }
+
+.card_1 {
+    svg{
+        fill: $secondary_dark_2; 
+    }
+}
+
+
+ .card_2{
+        svg{
+            fill: $secondary_dark_3; 
+        }
+    }

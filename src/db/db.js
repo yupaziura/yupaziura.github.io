@@ -1,3 +1,15 @@
+import {ReactComponent as HTML} from '../img/icons/html.svg';
+import {ReactComponent as CSS} from '../img/icons/css.svg';
+import {ReactComponent as JS} from '../img/icons/js.svg';
+import {ReactComponent as React} from '../img/icons/react.svg';
+import {ReactComponent as Archicad} from '../img/icons/archicad.svg';
+import {ReactComponent as Grass} from '../img/icons/grass.svg';
+import {ReactComponent as AI} from '../img/icons/ai.svg';
+import {ReactComponent as EN} from '../img/icons/en.svg';
+import {ReactComponent as PL} from '../img/icons/pl.svg';
+
+
+
 const main = {
     nav: ['About me', 'Studies and Courses', 'Experience', 'Skills', 'Contact'],
     title: 'Hi!🙋🏻‍♀️  My name is Yuliia Paziura',
@@ -85,47 +97,56 @@ const skills = {
         {
             title: 'HTML',
             rate: 7,
-            text: 'Experience in semantic and adaptive layout.'
+            text: 'Experience in semantic and adaptive layout.',
+            Image: HTML,
         },
         {
             title: 'CSS',
             rate: 7,
-            text: 'Expirience in pixel-perfect layouts.'
+            text: 'Expirience in pixel-perfect layouts.',
+            Image: CSS,
         },
         {
             title: 'JavaScript',
             rate: 5,
-            text: 'Basic knowledge of vanila JS, OOP principals.'
+            text: 'Basic knowledge of vanila JS, OOP principals.',
+            Image: JS,
         },
         {
             title: 'React',
             rate: 4,
-            text: 'Basic knowledge and practice in React framework.'
+            text: 'Basic knowledge and practice in React framework.',
+            Image: React,
         },
         {
             title: 'Archicad',
             rate: 8,
-            text: 'Advanced knowledge and tones of projects.'
+            text: 'Advanced knowledge and tones of projects.',
+            Image: Archicad,
         },
         {
             title: 'Grasshopper + Rhino',
             rate: 9,
-            text: 'Advanced knowledge, many working scripts.'
+            text: 'Advanced knowledge, many working scripts.',
+            Image: Grass,
         },
         {
             title: 'Adobe Illustrator',
             rate: 9,
-            text: 'Advanced knowledge and practice.'
+            text: 'Advanced knowledge and practice.',
+            Image: AI,
         },
         {
             title: 'Language. English',
             rate: 4,
-            text: 'Intermediate (B1)'
+            text: 'Intermediate (B1)',
+            Image: EN,
         },
         {
             title: 'Language. Polish',
             rate: 7,
-            text: 'Upper intermediate (B2)'
+            text: 'Upper intermediate (B2)',
+            Image: PL,
         }
     ]
 }
@@ -136,47 +157,56 @@ const skillsUA = {
         {
             title: 'HTML',
             rate: 7,
-            text: 'Досвід в семантичній та адаптивній верстці.'
+            text: 'Досвід в семантичній та адаптивній верстці.',
+            Image: HTML,
         },
         {
             title: 'CSS',
             rate: 7,
-            text: 'Досвід в pixel-perfect верстці.'
+            text: 'Досвід в pixel-perfect верстці.',
+            Image: CSS,
         },
         {
             title: 'JavaScript',
             rate: 5,
-            text: 'Базові знання JavaScript та принципів ООП.'
+            text: 'Базові знання JavaScript та принципів ООП.',
+            Image: JS,
         },
         {
             title: 'React',
             rate: 4,
-            text: 'Базові знання та практика на фреймворці React.'
+            text: 'Базові знання та практика на фреймворці React.',
+            Image: React,
         },
         {
             title: 'Archicad',
             rate: 8,
-            text: 'Продвинуті знання та купа проектів :)'
+            text: 'Продвинуті знання та купа проектів :)',
+            Image: Archicad,
         },
         {
             title: 'Grasshopper + Rhino',
             rate: 9,
-            text: 'Продвинуті знання, робочі скріпти.'
+            text: 'Продвинуті знання, робочі скріпти.',
+            Image: Grass,
         },
         {
             title: 'Adobe Illustrator',
             rate: 9,
-            text: 'Продвинуті знання та практика.'
+            text: 'Продвинуті знання та практика.',
+            Image: AI,
         },
         {
             title: 'Мова. Англійська',
             rate: 4,
-            text: 'Середній (B1)'
+            text: 'Середній (B1)',
+            Image: EN,
         },
         {
             title: 'Мова. Польська',
             rate: 7,
-            text: 'Вище середнього (B2)'
+            text: 'Вище середнього (B2)',
+            Image: PL,
         }
     ]
 }
