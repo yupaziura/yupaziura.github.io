@@ -184,13 +184,13 @@ const skillsUA = {
 const footer = {
     framework: 'This website was created using React framework.',
     libraries: 'Libraries I used in this project:',
-    libList: ['Material UI']
+    libList: ['Material UI', 'react-card-flip']
 }
 
 const footerUA = {
     framework: 'Ця сторінка була створена за допомогою фреймворку React.',
     libraries: 'Бібліотеки, використани в проєкті:',
-    libList: ['Material UI'] 
+    libList: ['Material UI', 'react-card-flip'] 
 }
 
 const experience = {
