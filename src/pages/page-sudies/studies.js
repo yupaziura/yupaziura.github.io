@@ -1,6 +1,7 @@
 // basic
 import * as React from 'react';
 import {studies, studiesUA} from '../../db/db';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 // components
 import Title from '../../components/title/title';
@@ -19,6 +20,9 @@ const Studies = (props) => {
   const obj = props.language === 0? studies : studiesUA;
   const activeTheme = +props.theme === 1? `_1` : +props.theme === 2? `_2` : '';
 
+  const matches = useMediaQuery('(max-width:768px)');
+  const tlType = matches? 'right' : 'alternate';
+
 
   const elems = obj.stud.map ((item, i)=> {
     return (
@@ -34,7 +38,7 @@ const Studies = (props) => {
         <div className="container" id='studies'>
           <Title text = {obj.title} theme={props.theme}/>
 
-          <Timeline position="alternate">
+          <Timeline position={tlType}>
             {elems}
           </Timeline>
         </div>

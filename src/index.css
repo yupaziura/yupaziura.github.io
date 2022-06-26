@@ -18,8 +18,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
 @media (max-width: 576px) {
   .container {
-    max-width: 350px;
+    max-width: 430px;
   }
 }

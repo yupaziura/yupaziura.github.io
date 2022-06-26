@@ -5,3 +5,15 @@
         background-color: $primary_main_3;
     }
 }
+
+@media (max-width: 768px) {
+    .MuiTimelineItem-missingOppositeContent {
+        &::before {
+            display: none;
+        }
+    }
+    ul {
+        display: block;
+        margin: 0 auto;
+    }
+}

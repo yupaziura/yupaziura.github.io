@@ -1,5 +1,7 @@
 // basic
 import {React, useState} from 'react';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 
 // components
 import TextArea from '../text-area/text-area';
@@ -20,6 +22,8 @@ import './timeline-item.scss';
 const MyTimelineItem = (props) =>{
     const activeTheme = +props.theme === 1? `_1` : +props.theme === 2? `_2` : '';
     const [side, setSide] = useState(false);
+    const matches = useMediaQuery('(max-width:768px)');
+
     const mainContent = 
                     <>
                         <h3>
@@ -52,13 +56,13 @@ const MyTimelineItem = (props) =>{
     const elem = 
         <>
         {props.rotable === false? 
-            <TimelineContent >
+            <TimelineContent sx={{py: 3}} >
                 <TextArea theme={props.theme} >
                     {mainContent}
                 </TextArea> 
             </TimelineContent>
             : 
-            <TimelineContent   onClick={() => {setSide(!side)}}>
+            <TimelineContent sx={{py: 3}}   onClick={() => {setSide(!side)}}>
                 <ReactCardFlip isFlipped={side} flipDirection="horizontal">
                     <TextArea theme={props.theme} >
                         {mainContent}
@@ -73,7 +77,7 @@ const MyTimelineItem = (props) =>{
 
     const separator = 
         <>
-            <TimelineSeparator sx={{mx: 3}} className={`dot dot${activeTheme}`}>
+            <TimelineSeparator sx={{mx: matches? 0 : 3}} className={`dot dot${activeTheme}`}>
                     <TimelineConnector  />
                     <TimelineDot  sx={{p:2}}>
                         {props.children}

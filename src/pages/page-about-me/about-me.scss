@@ -38,3 +38,11 @@
     }
 }
 
+
+@media (max-width: 576px) {
+    .about_me {
+        .text_area {
+            margin: 0 10px;
+        }    
+    }
+}
