@@ -20,7 +20,7 @@ const Studies = (props) => {
   const obj = props.language === 0? studies : studiesUA;
   const activeTheme = +props.theme === 1? `_1` : +props.theme === 2? `_2` : '';
 
-  const matches = useMediaQuery('(max-width:768px)');
+  const matches = useMediaQuery('(min-width:768px)');
   const tlType = matches? 'right' : 'alternate';
 
 

@@ -32,14 +32,17 @@ const ThemeSwitcher = (props) => {
         <button className='switcher__button' onClick={()=> {setShow(!show)}}>
             <BrushIcon/>
         </button>
-        
-        <div className={`menu menu${activeClass} menu${activeTheme}`}>
+        {show? 
+            <div className={`menu menu${activeClass} menu${activeTheme}`}>
             <ul>
                 <li onClick={()=>choose(0)} className="menu__item">🌞  {obj.theme[0]}</li>
                 <li onClick={()=>choose(1)} className="menu__item">💐  {obj.theme[1]}</li>
                 <li onClick={()=>choose(2)} className="menu__item">🌘  {obj.theme[2]}</li>
             </ul>
         </div>
+        :
+        null
+        }
         </div>
         </ClickAwayListener>
         </div>

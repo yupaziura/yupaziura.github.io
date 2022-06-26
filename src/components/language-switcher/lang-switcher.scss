@@ -1,0 +1,73 @@
+@import '../../styles/variables.scss';
+
+.lang-menu {
+
+    display: none;
+    position: absolute;
+    // width: 200px;
+    // height: 80px;
+    top: 53px;
+    right: -26px;
+    // padding: 10px;
+    border-radius: 3px;
+    color: white;
+    ul {
+        list-style-type: none;
+        // line-height: 27px;
+        margin: 0 auto;
+        li {
+            text-align: center;
+            padding: 5px;
+            // width: 200px;
+            transition: all 0.3s;
+            &:hover {
+                cursor: pointer;
+                background-color: $secondary_light_1;
+            }
+        }
+    }
+
+    &_1{
+        background-color: $primary_dark_2;
+        ul {
+            li {
+                &:hover {
+                    background-color: $secondary_dark_2;  
+                }
+            }
+        }
+    }
+    &_2{
+        background-color: $primary_dark_3;
+        ul {
+            li {
+                &:hover {
+                    background-color: $secondary_light_3;  
+                }
+            }
+        }
+    }
+   
+
+    &_active {
+        display:block
+    }
+
+}
+
+
+.lang-switcher {
+    position: relative;
+
+    &__button {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        margin-right: 20px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+            transform: scale(1.2, 1.2);
+        }
+    }
+}

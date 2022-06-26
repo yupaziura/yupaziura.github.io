@@ -17,6 +17,14 @@
     justify-content: flex-end;
     align-items: center;
 
+
+    &__menu {
+            background: none;
+            border: none;
+            color: white;
+            position: absolute;
+            left: 35px;
+    }
     &__linkblock {
         margin-right: 40px;
         min-width: 20px;
@@ -52,5 +60,31 @@
                 // border: 2px solid rgb(50, 50, 50);
             }
         }
+    }
+
+}
+
+.bar {
+    display: block;
+    
+    min-width: 390px;
+    position: fixed;
+    left: 0;
+
+    background-color: $primary_dark_1;
+
+    &_1{
+        background-color: $primary_dark_2;
+    }
+    &_2{
+        background-color: $primary_dark_3;
+    }
+
+    &__close {
+        background: none;
+        border: none;
+        color: white;
+        position: absolute;
+        top: 35px;
     }
 }
