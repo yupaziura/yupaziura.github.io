@@ -13,9 +13,8 @@
         
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         align-items: center;
-
     }
 
     &__photo {
@@ -27,3 +26,15 @@
         align-self: center;
     }
 }
+
+@media (max-width: 992px) {
+    .about_me {
+        &__block {
+            flex-direction: column;
+        }
+        &__photo {
+            margin-top: 40px;
+        }
+    }
+}
+

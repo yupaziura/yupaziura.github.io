@@ -3,7 +3,6 @@
 // conponents
 import TextArea from '../text-area/text-area';
 import Rating from '@mui/material/Rating';
-import test from '../../img/icons/html.svg';
 
 // styles
 import './card.scss';
