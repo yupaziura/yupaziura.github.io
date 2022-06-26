@@ -22,7 +22,7 @@ const App = () => {
         {/* <MainPage language={language} setLanguage={setLanguage} setTheme={setTheme} theme={theme}/> */}
         <AboutMe language={language} theme={theme} />
         <Studies language={language} theme={theme} />
-        {/* <Skills language={language} theme={theme} /> */}
+        <Skills language={language} theme={theme} />
         {/* <Experience language={language} theme={theme} /> */}
         {/* <Footer language={language} theme={theme} /> */}
     </>
