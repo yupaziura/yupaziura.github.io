@@ -1,5 +1,7 @@
 // basic
 import {experience, experienceUA} from '../../db/db';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 
 // conponents
 import Title from "../../components/title/title";
@@ -14,6 +16,10 @@ import './experience.scss';
 const Experience = (props) => {
     const obj = props.language === 0? experience : experienceUA;
     const activeTheme = props.theme === 1? `_1` : props.theme === 2? `_2` : '';
+
+    const matches = useMediaQuery('(max-width:768px)');
+    const tlType = matches? 'right' : 'alternate';
+  
 
 
     const elems = obj.work.map ((item, i)=> {
@@ -41,7 +47,7 @@ const Experience = (props) => {
                 <div className="experience__item experience__item_8"></div>
                 </div> */}
 
-                <Timeline position="alternate">
+                <Timeline position={tlType}>
                     {elems}
                 </Timeline>
                 </div>

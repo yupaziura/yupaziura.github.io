@@ -46,3 +46,27 @@
         }
     }
 }
+
+@media (max-width: 1200px) {
+    .experience {
+        .text_area {
+            height: 320px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .experience {
+        .text_area {
+            height: 270px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .experience {
+        .text_area {
+            height: 360px;
+        }
+    }
+}
