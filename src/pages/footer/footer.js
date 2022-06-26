@@ -22,18 +22,7 @@ const Footer = (props) => {
     return (
         <>
             <div className={`footer footer${activeTheme}`} id='footer'>
-                <div className="footer__info">
-                    <p>
-                        {obj.framework}
-                        <br/><br/>
-                        {obj.libraries}
-                    </p>
-                    <ul>
-                       {elems} 
-                    </ul>
-                </div>
-
-                <div className="footer__contacts">
+            <div className="footer__contacts">
                     <div className="footer__contact footer__contact_email">
                         <div className="footer__img"></div>
                         <div >yuliiapaziura@gmail.com</div>
@@ -47,6 +36,18 @@ const Footer = (props) => {
                         <a href='https://www.facebook.com/profile.php?id=100010341139078' >Facebook</a>
                     </div>
                 </div>
+
+                <div className="footer__info">
+                    <p>
+                        {obj.framework}
+                        <br/><br/>
+                        {obj.libraries}
+                    </p>
+                    <ul>
+                       {elems} 
+                    </ul>
+                </div>
+
             </div>
         </>
     )

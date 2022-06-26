@@ -47,3 +47,12 @@
        
     }
 }
+
+@media (max-width:768px) {
+    .footer {
+        flex-wrap: wrap;
+        &__contacts {
+            margin-bottom: 40px;
+        }
+    }
+}
