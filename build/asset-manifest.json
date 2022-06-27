@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.0da4b673.css",
+    "main.js": "/my-app/static/js/main.0cc09745.js",
+    "static/media/grass.svg": "/my-app/static/media/grass.470431989e6d3021db22e3e69a4b99c9.svg",
+    "static/media/react.svg": "/my-app/static/media/react.cee3ba7d722fdf1147a976e536ddab1e.svg",
+    "static/media/html.svg": "/my-app/static/media/html.d4cbd6d93c365c40b20217291db7554a.svg",
+    "static/media/css.svg": "/my-app/static/media/css.114f3848e0cf1ec6e213dc0cdddc51e4.svg",
+    "static/media/en.svg": "/my-app/static/media/en.460fb94d87687e15ed69ea3d4990b810.svg",
+    "static/media/ai.svg": "/my-app/static/media/ai.78bafa7546e847dbaefda0c71d3655d6.svg",
+    "static/media/pl.svg": "/my-app/static/media/pl.ee496a095f8aaedc35e3751c2cd1e6f0.svg",
+    "static/media/js.svg": "/my-app/static/media/js.2cfbc1dcb663ffe8938044ffd7f089ec.svg",
+    "static/media/archicad.svg": "/my-app/static/media/archicad.4b154e5e87949c24a010f4632940fed5.svg",
+    "index.html": "/my-app/index.html",
+    "main.0da4b673.css.map": "/my-app/static/css/main.0da4b673.css.map",
+    "main.0cc09745.js.map": "/my-app/static/js/main.0cc09745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0da4b673.css",
+    "static/js/main.0cc09745.js"
+  ]
+}
