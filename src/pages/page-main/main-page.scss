@@ -90,3 +90,11 @@
         }
     }
 }
+
+@media(max-width:320px) {
+    .main {
+        &__headers {
+            width: 310px;
+        }
+    }
+}
