@@ -70,6 +70,8 @@
     min-width: 390px;
     position: fixed;
     left: 0;
+    top: 0px;
+    height: 100vh;
 
     background-color: $primary_dark_1;
 
@@ -85,6 +87,18 @@
         border: none;
         color: white;
         position: absolute;
-        top: 35px;
+        top: 20px;
+        left: 20px;
+
+    }
+
+    ul {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        .nav__linkblock {
+            margin-top: 30px;
+        }
     }
 }

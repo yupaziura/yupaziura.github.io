@@ -48,10 +48,10 @@ const Nav = (props) => {
                             sideBar? 
                             <ClickAwayListener onClickAway={close}>
                                 <div className={`bar bar${activeTheme}`}>
-                                   <button className='bar__close'>
+                                   <button onClick={()=> close()} className='bar__close'>
                                         <CloseIcon/> 
                                    </button>
-                                   <ul>
+                                   <ul onClick={()=> close()}>
                                    <div className="nav__linkblock">
                                         <a className="nav__link" href="#about_me">{obj.nav[0]}</a> 
                                     </div>
