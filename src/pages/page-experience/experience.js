@@ -8,6 +8,7 @@ import Title from "../../components/title/title";
 import Timeline from '@mui/lab/Timeline';
 import WorkIcon from '@mui/icons-material/Work';
 import MyTimelineItem from '../../components/timeline-item/timeline-item';
+import Tip from '../../components/tip/tip';
 
 
 // styles
@@ -35,6 +36,14 @@ const Experience = (props) => {
             <div className={` experience experience${activeTheme}`} id='experience'>
                 <div className="container">
                 <Title text={obj.titlle} theme={props.theme}/>
+
+                {matches? 
+                    <>
+                        <Tip text={obj.tip} theme={props.theme}/>
+                    </>
+                    :
+                    null
+                }
 
                 {/* <div className="experience">
                 <div className="experience__item experience__item_1"></div>

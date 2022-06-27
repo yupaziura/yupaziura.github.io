@@ -225,6 +225,7 @@ const footerUA = {
 
 const experience = {
     titlle: 'Experience',
+    tip: 'Tap on the card below to see details',
     work: [
         {
             title: 'Inventarisation. Practice',
@@ -275,6 +276,7 @@ const experience = {
 
 const experienceUA = {
     titlle: 'Досвід',
+    tip: 'Натисніть на карточки нижче, щоб побачити детальну інформацію.',
     work: [
         {
             title: 'Інвентаризація. Практика',
