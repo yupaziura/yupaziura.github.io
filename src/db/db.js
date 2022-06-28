@@ -325,6 +325,28 @@ const experienceUA = {
     ]
 }
 
+const projects = {
+    title: 'Projects',
+    more: 'Details',
+    projects: [
+        'Web-development',
+        'Architecture & Modeling',
+        'Rhinoceros & Grasshopper'
+    ]
+}
+
+const projectsUA = {
+    title: 'Проєкти',
+    more: 'Детальніше',
+    projects: [
+        'Web-розробка',
+        'Архітектура і моделювання',
+        'Rhinoceros & Grasshopper'
+    ]
+}
 
 
-export {experience, experienceUA, main, mainUA, aboutMe, aboutMeUA, studies, studiesUA, skills, skillsUA, footer, footerUA};
+
+
+
+export {projects, projectsUA, experience, experienceUA, main, mainUA, aboutMe, aboutMeUA, studies, studiesUA, skills, skillsUA, footer, footerUA};

@@ -2,23 +2,29 @@
 
 .main {
     height: 100vh;
-    background-color: $primary_main_1;
+    background: url(../../img/background.png) center (center/cover) no-repeat;
 
     &_1 {
         background: linear-gradient(to bottom right, $primary_main_2, $secondary_light_2);    }
 
     &_2 {
+        background: none;
         background-color: $primary_main_3;
     }
    
 
     .container {
-        margin: (100vh/4) auto 0 auto;
+        margin: 0 auto 0 auto;
+        display: flex;
+        padding-top: 0px;
+        height: calc(100% - 70px);
+    }
+
+    &__container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding-top: 0px;
-   
+        align-self:center;
     }
 
     &__photo {
@@ -27,12 +33,14 @@
         border-radius: 100%;
         background-color: #fff;
         margin-right: 25px;
+        align-self: center;
     }
 
     &__headers {
         width: 600px;
         align-self: center;
         color: #fff;
+        text-align: right;
 
         h1 {
             font-size: 45px;
@@ -65,9 +73,9 @@
             text-align: center;
         }
 
-        .container {
+        &__container {
             flex-direction: column;
-            margin: (100vh/10) auto 0 auto;
+            margin: 0 auto 0 auto;
         }
 
         &__photo {
