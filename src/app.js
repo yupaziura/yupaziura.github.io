@@ -13,20 +13,19 @@ import Projects from './pages/page-projects/projects';
 // styles
 
 
-const App = () => {
-    const [language, setLanguage] = useState(0);
-    const [theme, setTheme] = useState(0);
+const App = (props) => {
+
 
     
     return (
       <>
-        <MainPage language={language} setLanguage={setLanguage} setTheme={setTheme} theme={theme}/>
-        <AboutMe language={language} theme={theme} />
-        <Studies language={language} theme={theme} />
-        <Skills language={language} theme={theme} />
-        <Experience language={language} theme={theme} />
-        <Projects language={language} theme={theme}/>
-        <Footer language={language} theme={theme} />
+        <MainPage language={props.language} setLanguage={props.setLanguage} setTheme={props.setTheme} theme={props.theme}/>
+        <AboutMe language={props.language} theme={props.theme} />
+        <Studies language={props.language} theme={props.theme} />
+        <Skills language={props.language} theme={props.theme} />
+        <Experience language={props.language} theme={props.theme} />
+        <Projects language={props.language} theme={props.theme}/>
+        <Footer language={props.language} theme={props.theme} />
     </>
     )
 }

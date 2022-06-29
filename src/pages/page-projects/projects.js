@@ -1,6 +1,6 @@
 // basic
 import {projects, projectsUA} from '../../db/db';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 // components
@@ -34,7 +34,7 @@ const Projects = (props) => {
 
 
     return (
-        <div className="projects" id='projects'>
+        <div className={`projects projects${activeTheme}`} id='projects'>
             <div className="container">
                 <Title text={obj.title} theme={props.theme}/>
                 <div className="projects__box">

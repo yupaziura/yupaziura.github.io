@@ -1,5 +1,6 @@
 // basic
 import {React, useState} from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import {main, mainUA} from '../../db/db';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
@@ -28,7 +29,21 @@ const Nav = (props) => {
         setSideBar(false);
     }
 
+    const navigate = useNavigate();
 
+    const arr = ['#about_me', "#studies", "#skills", "#experience", "#projects", "#footer"];
+
+
+    const elems = obj.nav.map ((item, i)=> {
+        return (
+            <div key={i} className="nav__linkblock">
+                <a  className="nav__link" href={arr[i]}>{item}</a> 
+            </div>
+        )
+    })
+
+    const location = useLocation();
+    console.log(location.pathname)
 
 
     return (
@@ -52,54 +67,25 @@ const Nav = (props) => {
                                         <CloseIcon/> 
                                    </button>
                                    <ul onClick={()=> close()}>
-                                   <div className="nav__linkblock">
-                                        <a className="nav__link" href="#about_me">{obj.nav[0]}</a> 
-                                    </div>
-                                    <div className="nav__linkblock">
-                                        <a className="nav__link" href="#studies">{obj.nav[1]}</a> 
-                                    </div>                                    <div className="nav__linkblock">
-                                        <a className="nav__link" href="#skills">{obj.nav[2]}</a>
-                                    </div>
-                                    <div className="nav__linkblock">
-                                        <a className="nav__link" href="#experience">{obj.nav[3]}</a>
-                                    </div>
-                                    <div className="nav__linkblock">
-                                        <a className="nav__link" href="#projects">{obj.nav[4]}</a>
-                                    </div>
-                                    <div className="nav__linkblock">
-                                        <a className="nav__link" href="#footer">{obj.nav[5]}</a>
-                                    </div>
+                                        {elems}
                                    </ul>
-                                   
-                                   
-
                                 </div>
                             </ClickAwayListener>
                             :
                             null
                         }
                     </>
-
                     :
                     <>
-                        <div className="nav__linkblock">
-                            <a className="nav__link" href="#about_me">{obj.nav[0]}</a> 
-                        </div>
-                        <div className="nav__linkblock">
-                            <a className="nav__link" href="#studies">{obj.nav[1]}</a> 
-                        </div>                                    <div className="nav__linkblock">
-                            <a className="nav__link" href="#skills">{obj.nav[2]}</a>
-                        </div>
-                        <div className="nav__linkblock">
-                            <a className="nav__link" href="#experience">{obj.nav[3]}</a>
-                        </div>
-                        <div className="nav__linkblock">
-                            <a className="nav__link" href="#projects">{obj.nav[4]}</a>
-                        </div>
-                        <div className="nav__linkblock">
-                            <a className="nav__link" href="#footer">{obj.nav[5]}</a>
-                        </div>
-
+                        {location.pathname === '/'? 
+                        <>
+                            {elems}
+                        </>
+                            :
+                            <div className="nav__linkblock">
+                                <a  className="nav__link" onClick={()=> navigate(-1)}>{obj.back}</a> 
+                            </div>
+                        }
                         <button onClick={()=>props.setLanguage(1)} className={`nav__linkblock nav__linkblock_language ${props.language === 1? 'nav__linkblock_language_active' : ''}`}>
                         🇺🇦
                         </button>

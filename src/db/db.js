@@ -18,13 +18,15 @@ const main = {
     nav: ['About me', 'Studies and Courses', 'Skills', 'Experience', 'Projects', 'Contact'],
     title: 'Hi!🙋🏻‍♀️  My name is Yuliia Paziura',
     subtitle: 'I am a web-developer',
-    theme: ['light themme', 'spring themme', 'dark themme']
+    theme: ['light themme', 'spring themme', 'dark themme'],
+    back: 'Back to main page'
 }
 const mainUA = {
     nav: ['Про мене', 'Навчання та курси', 'Навички', 'Досвід', 'Проєкти',  'Контакти'],
     title: `Привіт!🙋🏻‍♀️  Мене звати Пазюра Юлія`,
     subtitle: 'Я - веб-розробник',
-    theme: ['світла тема', 'весняна тема', 'темна тема']
+    theme: ['світла тема', 'весняна тема', 'темна тема'],
+    back: 'Назад до головної сторінки'
 }
 
 const aboutMe = {
@@ -289,7 +291,7 @@ const experienceUA = {
             text: 'Інвентаризація костелу св. Ігнатія Лойолі (головний вхід).',
             detail: ['обміри дверей головного входу',
                     'створення креслення фронтальної частини',
-                    'створення круслення перерізу',
+                    'створення креслення перерізу',
                     'створення креслення деталі (металева окантовка)'
                 ]
         },
@@ -359,6 +361,32 @@ const projectsUA = {
         {title: 'Rhinoceros & Grasshopper',
         Icon: BubbleChartIcon,
         path: '/projects_grass'}
+    ]
+}
+
+const projectWeb = {
+    title: '',
+    arr: [
+        {
+            title:'',
+            descr: '',
+            path: '../../img/wordpres.png'
+        },
+        {
+            title:'',
+            descr: '',
+            path: '../../img/wordpres.png'
+        },
+        {
+            title:'',
+            descr: '',
+            path: '../../img/wordpres.png'
+        },
+        {
+            title:'',
+            descr: '',
+            path: '../../img/wordpres.png'
+        }
     ]
 }
 

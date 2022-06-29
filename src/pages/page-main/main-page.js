@@ -16,7 +16,6 @@ const MainPage = (props) => {
 
     return (
         <div className={`main main${activeTheme}`}>
-            <Nav language={props.language} setLanguage={props.setLanguage} setTheme={props.setTheme} theme={props.theme}/>
             <div className="container">
                     <div className="main__container">
                     <div className="main__photo">
