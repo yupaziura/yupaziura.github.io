@@ -20,15 +20,16 @@ const Projects = (props) => {
 
     const elem = obj.projects.map(({title, Icon, path}, i) => {
         return (
-            <TextArea key={i} theme={props.theme}>
-                <div className="projects__headerblock">
-                    <Icon className={'projects__icons'}/>
-                    <h3>{title}</h3>
-                </div>
-                <Link to={path}>
-                    <ArrowRightAltIcon sx={{display: 'block'}} />
-                </Link>
-            </TextArea>
+            <Link to={path} className={'projects__links'}>
+                <TextArea key={i} theme={props.theme}>
+                    <div className="projects__headerblock">
+                        <Icon className={'projects__icons'}/>
+                        <h3>{title}</h3>
+                    </div>
+                    
+                        <ArrowRightAltIcon sx={{display: 'block'}} />
+                </TextArea>
+            </Link>
         )
     })
 

@@ -52,9 +52,18 @@ const Nav = (props) => {
 
                 {matches? 
                     <>
-                        <button onClick={()=> setSideBar(true)} className='nav__menu'>
-                            <MenuIcon/>
-                        </button>
+                        {location.pathname === '/'? 
+                            <>
+                                <button onClick={()=> setSideBar(true)} className='nav__menu'>
+                                    <MenuIcon/>
+                                </button>
+                            </>
+                            :
+                            <div className="nav__linkblock">
+                                <a  className="nav__link" onClick={()=> navigate(-1)}>{obj.back}</a> 
+                            </div>
+                        }
+                        
                         
                         <LangSwitcher language={props.language} setLanguage={props.setLanguage}/>
                         <ThemeSwitcher language={props.language} setTheme={props.setTheme} theme={props.theme}/>

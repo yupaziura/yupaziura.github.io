@@ -2,16 +2,19 @@
 
 .projects {
     padding-bottom: 20px;
-    &_2{
-        background-color: $primary_main_3;
-    }
+    
     &__box {
         margin: 0 10px;
-        .text_area {
-            margin: 0 auto 30px auto;
-            display: flex;
-            justify-content: space-between;
-            align-items:center;
+    }
+    .text_area {
+        margin: 0 auto 30px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        transition: all 0.3s;
+        &:hover{
+            cursor: pointer;
+            box-shadow: 1px 1px 35px rgba(35, 35, 35, 0.696);    
         }
     }
 
@@ -22,6 +25,20 @@
 
     &__icons {
         margin-right: 10px;
+    }
+
+    &__links {
+        color: black;
+        text-decoration: none;
+    }
+
+    &_2{
+        background-color: $primary_main_3;
+        .text_area {
+            &:hover {
+                box-shadow: 1px 1px 35px rgba(0, 0, 0, 0.993);
+            }
+        }
     }
 
 }
