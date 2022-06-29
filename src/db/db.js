@@ -8,16 +8,20 @@ import {ReactComponent as AI} from '../img/icons/ai.svg';
 import {ReactComponent as EN} from '../img/icons/en.svg';
 import {ReactComponent as PL} from '../img/icons/pl.svg';
 
+import ArchitectureIcon from '@mui/icons-material/Architecture';
+import BubbleChartIcon from '@mui/icons-material/BubbleChart';
+import WebIcon from '@mui/icons-material/Web';
+
 
 
 const main = {
-    nav: ['About me', 'Studies and Courses', 'Experience', 'Skills', 'Contact'],
+    nav: ['About me', 'Studies and Courses', 'Skills', 'Experience', 'Projects', 'Contact'],
     title: 'Hi!🙋🏻‍♀️  My name is Yuliia Paziura',
     subtitle: 'I am a web-developer',
     theme: ['light themme', 'spring themme', 'dark themme']
 }
 const mainUA = {
-    nav: ['Про мене', 'Навчання та курси', 'Досвід', 'Навички', 'Контакти'],
+    nav: ['Про мене', 'Навчання та курси', 'Навички', 'Досвід', 'Проєкти',  'Контакти'],
     title: `Привіт!🙋🏻‍♀️  Мене звати Пазюра Юлія`,
     subtitle: 'Я - веб-розробник',
     theme: ['світла тема', 'весняна тема', 'темна тема']
@@ -329,9 +333,16 @@ const projects = {
     title: 'Projects',
     more: 'Details',
     projects: [
-        'Web-development',
-        'Architecture & Modeling',
-        'Rhinoceros & Grasshopper'
+        {title: 'Web-development',
+        Icon: WebIcon,
+        path: '/projects_web'
+        },
+        {title: 'Architecture & Modeling',
+        Icon: ArchitectureIcon,
+        path: '/projects_arch'},
+        {title: 'Rhinoceros & Grasshopper',
+        Icon: BubbleChartIcon,
+        path: '/projects_grass'}
     ]
 }
 
@@ -339,9 +350,15 @@ const projectsUA = {
     title: 'Проєкти',
     more: 'Детальніше',
     projects: [
-        'Web-розробка',
-        'Архітектура і моделювання',
-        'Rhinoceros & Grasshopper'
+        {title: 'Web-розробка',
+        Icon: WebIcon,
+        path: '/projects_web'},
+        {title: 'Архітектура і моделювання',
+        Icon: ArchitectureIcon,
+        path: '/projects_arch'},
+        {title: 'Rhinoceros & Grasshopper',
+        Icon: BubbleChartIcon,
+        path: '/projects_grass'}
     ]
 }
 

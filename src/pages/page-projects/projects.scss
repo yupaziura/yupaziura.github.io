@@ -1,0 +1,21 @@
+.projects {
+    &__box {
+        margin: 0 10px;
+        .text_area {
+            margin: 0 auto 30px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+    }
+
+    &__headerblock {
+        display: flex;
+        align-items:center;
+    }
+
+    &__icons {
+        margin-right: 10px;
+    }
+
+}

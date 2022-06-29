@@ -3,7 +3,7 @@ import {React} from 'react';
 import ReactDOM from 'react-dom/client';
 
 // conponents
-import App from './app';
+import AppAll from './app-all';
 
 // styles
 import './index.css';
@@ -14,6 +14,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
-  <App/>
+  <AppAll/>
 );
 
