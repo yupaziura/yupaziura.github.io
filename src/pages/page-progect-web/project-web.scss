@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+
+.web {
+    &_2{
+        background-color: $primary_main_3;
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .text_area {
+        padding: 0;
+        line-height: 0;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        margin-bottom: 40px;
+    }
+}

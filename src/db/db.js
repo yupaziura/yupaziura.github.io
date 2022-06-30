@@ -365,27 +365,63 @@ const projectsUA = {
 }
 
 const projectWeb = {
-    title: '',
+    title: 'Web-development',
+    arr: [
+        {
+            title:'Wordpress',
+            descr: 'First website. Created using native HTML and CSS.',
+            path: require('../img/projects-web/wordpress.png')
+        },
+        {
+            title:'Puls',
+            descr: 'Website created using preprocesor SASS.',
+            path: require('../img/projects-web/puls.png')
+        },
+        {
+            title:'',
+            descr: '',
+            path: require('../img/projects-web/uber.png')
+        },
+        {
+            title:'',
+            descr: '',
+            path: require('../img/projects-web/test-portfolio.png')
+        },
+        {
+            title:'',
+            descr: '',
+            path: require('../img/projects-web/cred.png')
+        }
+    ]
+}
+
+const projectWebUA = {
+    title: 'Web-розробка',
     arr: [
         {
             title:'',
             descr: '',
-            path: '../../img/wordpres.png'
+            path: require('../img/projects-web/wordpress.png')
         },
         {
             title:'',
             descr: '',
-            path: '../../img/wordpres.png'
+            path: require('../img/projects-web/puls.png')
         },
         {
             title:'',
             descr: '',
-            path: '../../img/wordpres.png'
+            path: require('../img/projects-web/uber.png')
         },
         {
             title:'',
             descr: '',
-            path: '../../img/wordpres.png'
+            path: require('../img/projects-web/test-portfolio.png')
+        },
+        {
+            title:'',
+            descr: '',
+            path: require('../img/projects-web/cred.png')
         }
     ]
 }
@@ -394,4 +430,4 @@ const projectWeb = {
 
 
 
-export {projects, projectsUA, experience, experienceUA, main, mainUA, aboutMe, aboutMeUA, studies, studiesUA, skills, skillsUA, footer, footerUA};
+export {projectWebUA, projectWeb, projects, projectsUA, experience, experienceUA, main, mainUA, aboutMe, aboutMeUA, studies, studiesUA, skills, skillsUA, footer, footerUA};

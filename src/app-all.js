@@ -21,9 +21,9 @@ const AppAll = () => {
             <Nav language={language} setLanguage={setLanguage} setTheme={setTheme} theme={theme}/>
             <Routes>
                 <Route path='/' element={<App language={language} setLanguage={setLanguage} setTheme={setTheme} theme={theme}/>}/>
-                <Route path='/projects_web' element={<ProjectWeb/>}/>
-                <Route path='/projects_grass' element={<ProjectGrass/>}/>
-                <Route path='/projects_arch' element={<ProjectArch/>}/>
+                <Route path='/projects_web' element={<ProjectWeb language={language} theme={theme}/>}/>
+                <Route path='/projects_grass' element={<ProjectGrass language={language} theme={theme}/>}/>
+                <Route path='/projects_arch' element={<ProjectArch language={language} theme={theme}/>}/>
             </Routes>
         </Router>
     )
