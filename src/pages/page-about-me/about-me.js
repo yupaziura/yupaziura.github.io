@@ -34,7 +34,7 @@ const AboutMe = (props) => {
                     </TextArea>
 
                     <div className="about_me__photo">
-                        <img src="" alt="" />
+                        <img className='avatarBig' src={require('../../img/avatar-big.jpg')} alt="" />
                     </div>
                 </div>
             </div>

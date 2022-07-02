@@ -370,27 +370,43 @@ const projectWeb = {
         {
             title:'Wordpress',
             descr: 'First website. Created using native HTML and CSS.',
-            path: require('../img/projects-web/wordpress.png')
+            path: [require('../img/projects-web/wordpress.png')]
         },
         {
             title:'Puls',
-            descr: 'Website created using preprocesor SASS.',
-            path: require('../img/projects-web/puls.png')
+            descr: 'Pulse oximeter web store. Created with SASS preprocessor',
+            path: [require('../img/projects-web/puls.png')]
         },
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/uber.png')
+            path: [require('../img/projects-web/uber.png')]
         },
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/test-portfolio.png')
+            path: [require('../img/projects-web/test-portfolio.png')]
         },
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/cred.png')
+            path: [require('../img/projects-web/cred.png')]
+        },
+        {
+            title:'',
+            descr: '',
+            path: [require('../img/projects-web/coffee-shop/coffee-1.png'),
+                   require('../img/projects-web/coffee-shop/coffee-2.png'),
+                   require('../img/projects-web/coffee-shop/coffee-3.png')
+                ]
+        },
+        {
+            title:'',
+            descr: '',
+            path: [require('../img/projects-web/marvel/marvel-1.png'),
+                   require('../img/projects-web/marvel/marvel-2.png'),
+                   require('../img/projects-web/marvel/marvel-3.png')
+                ]
         }
     ]
 }
@@ -401,27 +417,35 @@ const projectWebUA = {
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/wordpress.png')
+            path: [require('../img/projects-web/wordpress.png')]
         },
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/puls.png')
+            path: [require('../img/projects-web/puls.png')]
         },
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/uber.png')
+            path: [require('../img/projects-web/uber.png')]
         },
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/test-portfolio.png')
+            path: [require('../img/projects-web/test-portfolio.png')]
         },
         {
             title:'',
             descr: '',
-            path: require('../img/projects-web/cred.png')
+            path: [require('../img/projects-web/cred.png')]
+        },
+        {
+            title:'',
+            descr: '',
+            path: [require('../img/projects-web/coffee-shop/coffee-1.png'),
+                   require('../img/projects-web/coffee-shop/coffee-2.png'),
+                   require('../img/projects-web/coffee-shop/coffee-3.png')
+                ]
         }
     ]
 }

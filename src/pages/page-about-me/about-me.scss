@@ -18,12 +18,14 @@
     }
 
     &__photo {
-        width: 300px;
-        height: 450px;
-        background-color: rgb(78, 127, 129);
+        width: 400px;
         border-radius: 10px;
         
         align-self: center;
+    }
+    .avatarBig {
+        width: 100%;
+        border-radius: 10px;
     }
 }
 
@@ -43,6 +45,10 @@
     .about_me {
         .text_area {
             margin: 0 10px;
-        }    
+        }  
+        &__photo {
+            width: 280px;
+        }  
     }
+    
 }

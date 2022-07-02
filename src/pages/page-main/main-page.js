@@ -19,7 +19,7 @@ const MainPage = (props) => {
             <div className="container">
                     <div className="main__container">
                     <div className="main__photo">
-                        <img src="" alt="" />
+                        <img className='avatar' src={require('../../img/avatar.jpg')} alt="" />
                     </div>
 
                     <div className="main__headers">

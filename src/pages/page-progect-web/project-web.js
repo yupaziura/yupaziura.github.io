@@ -16,12 +16,18 @@ const ProjectWeb = (props) => {
     const elem = obj.arr.map((item, i) => {
         return (
             <div className='web__item' key={i}>
-                <TextArea>
-                    <img className='web__img' src={item.path} alt='' />
-                </TextArea>
                 <div className="web__text">
                     <h3>{item.title}</h3>
                     <p>{item.descr}</p>
+                </div>
+                <div>
+                    {item.path.map ((itemNest, i)=> {
+                        return (
+                            <TextArea key={i}>
+                                <img className='web__img' src={itemNest} alt='' />
+                            </TextArea>
+                        )
+                    })}
                 </div>
             </div>
         )

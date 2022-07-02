@@ -4,23 +4,31 @@
 .web {
     &_2{
         background-color: $primary_main_3;
+        color: white;
     }
 
     &__img {
         width: 100%;
+        height: 100%;
         border-radius: 10px;
     }
 
     .text_area {
         padding: 0;
         line-height: 0;
+        margin-bottom: 40px;
+        height: auto;
     }
 
     &__item {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        flex-direction: row-reverse;
-        margin-bottom: 40px;
+    }
+    &__text {
+        margin-bottom: 30px;
+    }
+    h3{
+        margin: 10px 0;
     }
 }
