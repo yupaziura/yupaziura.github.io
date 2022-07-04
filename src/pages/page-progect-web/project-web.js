@@ -16,8 +16,8 @@ const ProjectWeb = (props) => {
 
     const elem = obj.arr.map((item, i) => {
         return (
-            <TextArea theme={props.theme}>
-                <div className='web__item' key={i}>
+            <TextArea theme={props.theme}  key={i}>
+                <div className='web__item'>
                     <div className="web__text">
                         <h3>{item.title}</h3>
                     
