@@ -1,6 +1,9 @@
 // basic
 import {React} from 'react';
 import {main, mainUA} from '../../db/db';
+// import {Link} from 'react-route-dom';
+import { Link } from 'react-router-dom';
+
 
 // components
 import Nav from "../../components/nav/nav";
@@ -27,7 +30,7 @@ const MainPage = (props) => {
                         <div><h2 className="main__headers_h2">{obj.subtitle}</h2></div>
                     </div>
                 </div>
-                
+                <Link to={{ pathname: "/word/index.html" }} target="_blank">click</Link>
             </div>
         </div>
     )

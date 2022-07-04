@@ -369,12 +369,12 @@ const projectWeb = {
     arr: [
         {
             title:'Wordpress',
-            descr: 'First website. Created using native HTML and CSS.',
+            descr: 'First website. Created using native HTML and CSS. Creating project structure. Learning basic principals of creating HTML layouts, adding styles.',
             path: [require('../img/projects-web/wordpress.png')]
         },
         {
             title:'Puls',
-            descr: 'Pulse oximeter web store. Created with SASS preprocessor',
+            descr: 'Pulse oximeter web store. Learning to use preproccessors (SASS). Set up gulp. Creating forms and their validation.',
             path: [require('../img/projects-web/puls.png')]
         },
         {
