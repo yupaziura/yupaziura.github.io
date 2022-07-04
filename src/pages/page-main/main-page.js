@@ -30,7 +30,6 @@ const MainPage = (props) => {
                         <div><h2 className="main__headers_h2">{obj.subtitle}</h2></div>
                     </div>
                 </div>
-                <Link to={{ pathname: "/word/index.html" }} target="_blank">click</Link>
             </div>
         </div>
     )

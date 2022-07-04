@@ -1,5 +1,6 @@
 // basic
 import {projectWeb, projectWebUA} from '../../db/db';
+import { Link } from 'react-router-dom';
 
 // conponents
 import Title from '../../components/title/title';
@@ -15,21 +16,24 @@ const ProjectWeb = (props) => {
 
     const elem = obj.arr.map((item, i) => {
         return (
-            <div className='web__item' key={i}>
-                <div className="web__text">
-                    <h3>{item.title}</h3>
-                    <p>{item.descr}</p>
+            <TextArea theme={props.theme}>
+                <div className='web__item' key={i}>
+                    <div className="web__text">
+                        <h3>{item.title}</h3>
+                    
+                        <p>{item.descr}</p>
+                        <div className={`web__link web__link${activeTheme}`}>
+                            <a href={item.pathGit}>{obj.textGit}</a>
+                        </div>
+                        <div className={`web__link web__link${activeTheme}`}>
+                            <Link to={{pathname: item.pathWeb}} target="_blank">{obj.textWeb}</Link>
+                        </div>
+                    </div>
+                    <div className='web__imgBlock'>
+                            <img className='web__img' src={item.pathImg} alt='' />
+                    </div>
                 </div>
-                <div>
-                    {item.path.map ((itemNest, i)=> {
-                        return (
-                            <TextArea key={i}>
-                                <img className='web__img' src={itemNest} alt='' />
-                            </TextArea>
-                        )
-                    })}
-                </div>
-            </div>
+            </TextArea>
         )
     })
 
