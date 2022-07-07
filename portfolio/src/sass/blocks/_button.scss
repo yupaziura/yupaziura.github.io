@@ -1,0 +1,24 @@
+.button {
+    // text
+    font-weight: bold;
+    font-size: 14px;
+    color: $text-color;
+    text-align: center;
+
+    //general
+    padding: 12px 25px;
+    min-width: 135px;
+    min-height: 45px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border: none;
+
+    //transition
+    transition: 0.3s all;
+    &:hover {
+        border: none;
+        background-color: #FFA501;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        text-decoration: none;
+        color: $text-color;
+    }
+}

@@ -1,0 +1,48 @@
+.aside {
+    width: 340px;
+    height: 25px;
+    position: fixed;
+    z-index: 10;
+    left: 50px;
+    right: auto;
+    top: 50%;
+
+
+    .social {
+        display: flex;
+        transform-origin: 0 0;
+        transform: rotate(-90deg) translateX(-50%);
+
+    
+        &__text {
+            margin-right: 15px;
+            color: $text-color;
+    
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 70px;
+                height: 2px;
+                background-color: $text-color;
+                margin-left: 15px;
+            }
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    
+        span {
+            font-size: 24px;
+            color: $text-color;
+            text-decoration: none;
+            margin-right: 15px;
+            transition: 0.3s all;
+            &:hover {
+                color: $base-color;
+            }
+        }
+    }
+    
+}
+
