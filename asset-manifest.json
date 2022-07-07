@@ -1,14 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.d92d8d75.css",
-    "main.js": "/static/js/main.98a9bb61.js",
+    "main.js": "/static/js/main.b92b599d.js",
     "static/media/avatar-big.jpg": "/static/media/avatar-big.1a972ce3fd8646de1ba4.jpg",
     "static/media/background.png": "/static/media/background.957a3d74ace7df034f17.png",
     "static/media/avatar.jpg": "/static/media/avatar.38a08a1c92deda1a26fa.jpg",
-    "static/media/puls.png": "/static/media/puls.d1d048c5c2dd05252878.png",
-    "static/media/uber.png": "/static/media/uber.76144b3bbc5eeacf96ae.png",
     "static/media/wordpress.png": "/static/media/wordpress.46e07d3e62767417777b.png",
-    "static/media/test-portfolio.png": "/static/media/test-portfolio.c38a2759dc8b71b207b9.png",
     "static/media/grass.svg": "/static/media/grass.470431989e6d3021db22e3e69a4b99c9.svg",
     "static/media/react.svg": "/static/media/react.cee3ba7d722fdf1147a976e536ddab1e.svg",
     "static/media/html.svg": "/static/media/html.d4cbd6d93c365c40b20217291db7554a.svg",
@@ -20,10 +17,10 @@
     "static/media/archicad.svg": "/static/media/archicad.4b154e5e87949c24a010f4632940fed5.svg",
     "index.html": "/index.html",
     "main.d92d8d75.css.map": "/static/css/main.d92d8d75.css.map",
-    "main.98a9bb61.js.map": "/static/js/main.98a9bb61.js.map"
+    "main.b92b599d.js.map": "/static/js/main.b92b599d.js.map"
   },
   "entrypoints": [
     "static/css/main.d92d8d75.css",
-    "static/js/main.98a9bb61.js"
+    "static/js/main.b92b599d.js"
   ]
 }
