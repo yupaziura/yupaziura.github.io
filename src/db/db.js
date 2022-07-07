@@ -335,10 +335,10 @@ const projects = {
     title: 'Projects',
     more: 'Details',
     projects: [
-        {title: 'Web-development',
-        Icon: WebIcon,
-        path: '/projects_web'
-        },
+        // {title: 'Web-development',
+        // Icon: WebIcon,
+        // path: '/projects_web'
+        // },
         {title: 'Architecture & Modeling',
         Icon: ArchitectureIcon,
         path: '/projects_arch'},
@@ -352,9 +352,9 @@ const projectsUA = {
     title: 'Проєкти',
     more: 'Детальніше',
     projects: [
-        {title: 'Web-розробка',
-        Icon: WebIcon,
-        path: '/projects_web'},
+        // {title: 'Web-розробка',
+        // Icon: WebIcon,
+        // path: '/projects_web'},
         {title: 'Архітектура і моделювання',
         Icon: ArchitectureIcon,
         path: '/projects_arch'},
