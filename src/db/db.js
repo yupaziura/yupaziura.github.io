@@ -339,9 +339,9 @@ const projects = {
         Icon: WebIcon,
         path: '/projects_web'
         },
-        {title: 'Architecture & Modeling',
-        Icon: ArchitectureIcon,
-        path: '/projects_arch'},
+        // {title: 'Architecture & Modeling',
+        // Icon: ArchitectureIcon,
+        // path: '/projects_arch'},
         {title: 'Rhinoceros & Grasshopper',
         Icon: BubbleChartIcon,
         path: '/projects_grass'}
@@ -355,9 +355,9 @@ const projectsUA = {
         {title: 'Web-розробка',
         Icon: WebIcon,
         path: '/projects_web'},
-        {title: 'Архітектура і моделювання',
-        Icon: ArchitectureIcon,
-        path: '/projects_arch'},
+        // {title: 'Архітектура і моделювання',
+        // Icon: ArchitectureIcon,
+        // path: '/projects_arch'},
         {title: 'Rhinoceros & Grasshopper',
         Icon: BubbleChartIcon,
         path: '/projects_grass'}
