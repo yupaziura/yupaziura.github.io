@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d92d8d75.css",
-    "main.js": "/static/js/main.46d8145b.js",
-    "static/media/avatar-big.jpg": "/static/media/avatar-big.1a972ce3fd8646de1ba4.jpg",
-    "static/media/background.png": "/static/media/background.957a3d74ace7df034f17.png",
-    "static/media/avatar.jpg": "/static/media/avatar.38a08a1c92deda1a26fa.jpg",
+    "main.css": "/static/css/main.8d7a3c33.css",
+    "main.js": "/static/js/main.4163a3ee.js",
+    "static/media/background.png": "/static/media/background.35463f65ca0c767d75ce.png",
     "static/media/wordpress.png": "/static/media/wordpress.46e07d3e62767417777b.png",
+    "static/media/avatar-big.jpg": "/static/media/avatar-big.be072726e51305d44304.jpg",
+    "static/media/avatar.jpg": "/static/media/avatar.57428bea040418c54ef3.jpg",
     "static/media/grass.svg": "/static/media/grass.470431989e6d3021db22e3e69a4b99c9.svg",
     "static/media/react.svg": "/static/media/react.cee3ba7d722fdf1147a976e536ddab1e.svg",
     "static/media/html.svg": "/static/media/html.d4cbd6d93c365c40b20217291db7554a.svg",
@@ -16,11 +16,11 @@
     "static/media/js.svg": "/static/media/js.2cfbc1dcb663ffe8938044ffd7f089ec.svg",
     "static/media/archicad.svg": "/static/media/archicad.4b154e5e87949c24a010f4632940fed5.svg",
     "index.html": "/index.html",
-    "main.d92d8d75.css.map": "/static/css/main.d92d8d75.css.map",
-    "main.46d8145b.js.map": "/static/js/main.46d8145b.js.map"
+    "main.8d7a3c33.css.map": "/static/css/main.8d7a3c33.css.map",
+    "main.4163a3ee.js.map": "/static/js/main.4163a3ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92d8d75.css",
-    "static/js/main.46d8145b.js"
+    "static/css/main.8d7a3c33.css",
+    "static/js/main.4163a3ee.js"
   ]
 }
