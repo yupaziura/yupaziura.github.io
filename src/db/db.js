@@ -383,13 +383,13 @@ const projectWeb = {
         //     pathWeb: '/puls/src/index.html',
         //     pathGit: 'https://github.com/yupaziura/html-lessons-website-puls',
         // },
-        // {
-        //     title:'Uber',
-        //     descr: 'Uber website. Creating HTML layout and adding styles. Preprocessor usage (SCSS). Set up gulp. Adaptive interface.',
-        //     pathImg: require('../img/projects-web/uber.png'),
-        //     pathWeb: '/uber/index.html',
-        //     pathGit: 'https://github.com/yupaziura/html-lessons-website-uber',
-        // },
+        {
+            title:'Uber',
+            descr: 'Uber website. Creating HTML layout and adding styles. Preprocessor usage (SCSS). Set up gulp. Adaptive interface.',
+            pathImg: require('../img/projects-web/uber.png'),
+            pathWeb: '/uber/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-uber',
+        },
         // {
         //     title:'Portfolio example',
         //     descr: 'Portfolio layout. Creating HTML layout and adding styles. Preprocessor usage (SCSS). Set up gulp. Adaptive interface. Creating forms and their validation. Creating scripts with Jquery.',
@@ -440,13 +440,13 @@ const projectWebUA = {
         //     pathWeb: '/puls/src/index.html',
         //     pathGit: 'https://github.com/yupaziura/html-lessons-website-puls',
         // },
-        // {
-        //     title:'Uber',
-        //     descr: 'Вебсайт Uber. Створення HTML розмітки та додавання стилів. Використання препроцесора (SCSS). Налаштування gulp. Створення адаптивного інтерфейсу.',
-        //     pathImg: require('../img/projects-web/uber.png'),
-        //     pathWeb: '/uber/index.html',
-        //     pathGit: 'https://github.com/yupaziura/html-lessons-website-uber',
-        // },
+        {
+            title:'Uber',
+            descr: 'Вебсайт Uber. Створення HTML розмітки та додавання стилів. Використання препроцесора (SCSS). Налаштування gulp. Створення адаптивного інтерфейсу.',
+            pathImg: require('../img/projects-web/uber.png'),
+            pathWeb: '/uber/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-uber',
+        },
         // {
         //     title:'Portfolio example',
         //     descr: 'Макет портфоліо. Створення HTML розмітки та додавання стилів. Використання препроцесора (SCSS). Налаштування gulp.  Створення адаптивного інтерфейсу. Створення форм та їх валідація. Створення скрітпів за допомогою Jquery.',
