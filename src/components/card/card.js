@@ -20,7 +20,7 @@ const Card = (props) => {
                     </div>
                     <br/>
                     <h3> {props.header}</h3>
-                    <Rating className={`rate rate${activeTheme}`} readOnly size="small" max={10} value={props.rate}/>
+                    <Rating className={`rate rate${activeTheme}`} readOnly size="small" max={5} value={props.rate}/>
                     <p>
                         {props.text}
                     </p>

@@ -33,7 +33,7 @@ const mainUA = {
 const aboutMe = {
     title: 'About me',
     text: [
-        `My name is Yuliia. I am ${age} and I am from Kyiv. I graduated from the Lublin University of Technology. Having received a diploma of an engineer-architect, I returned to Kyiv. I work as a developer assistant in the Archimatika architectural bureau. `,
+        `My name is Yuliia. I am ${age} and I am from Kyiv. I graduated from the Lublin University of Technology (Poland). Having received a diploma of an engineer-architect, I returned to Kyiv. I work as a developer assistant in the Archimatika architectural bureau. `,
         `I started my career as a BIM-assistant. My responsibilities included writing scripts to automate the workflows of architects, getting fast calculations, creating parametric geometry.`,
         `Since 2020, I have moved to the position of assistant developer. I was in charge of creating and maintaining a database of employees. Soon I began to work with this data, transforming it and making various kinds of presentations (Power BI, creating a website).`,
         `Now I am open to offers and new job as a trainee/junior web-developer.`
@@ -43,7 +43,7 @@ const aboutMe = {
 const aboutMeUA = {
     title: 'Про мене',
     text: [
-        `Мене звати Юля. Мені ${age} роки і я з Києва. Я закінчила Люблінську Політехніку. Отримавши диплом інженера архітектора, повернулася до Києва. Працюю помічником розробника у архітектурному бюро "Архіматика".`,
+        `Мене звати Юля. Мені ${age} роки і я з Києва. Я закінчила Люблінську Політехніку (Польща). Отримавши диплом інженера архітектора, повернулася до Києва. Працюю помічником розробника у архітектурному бюро "Архіматика".`,
         `Розпочала свою кар'єру з позиції BIM-ассистента. До моїх обов'язків входило написання скриптів для автоматизації робочих процесів архітекторів, отримання швидких розрахунків, створення параметричної геометрії.`,
         `З 2020 року я перейшла на позицію помічника розробника. Займалася створенням та підтримкою бази даних співробітників. Незабаром почала працювати з цими даними, обробляючи їх і роблячи різноманітні презентації (звіти в Power BI, створення вебсайту).`,
         `Зараз я відкрита для пропозицій та роботи у якості стажера/молодшого веб-розробника.`
@@ -52,11 +52,12 @@ const aboutMeUA = {
 
 const studies = {
     title: 'Studies and Courses',
-    stud: [ {
+    stud: [ 
+/*         {
         title:'Gimnasium 315',
         interval: '2004 - 2015',
         text:'Studied at the gymnasium with in-depth study of foreign languages, a mathematical class. Graduated with honors.'
-    },
+    }, */
      {
         title: 'Lublin University of Technology',
         interval: '2015 - 2019',
@@ -76,11 +77,12 @@ const studies = {
 
 const studiesUA = {
     title: 'Навчання та Курси',
-    stud:[ {
+    stud:[ 
+/*         {
         title:'Гімназія 315',
         interval: '2004 - 2015',
         text:'Навчалася в гімназії з поглибленим вивченням іноземних мов.'
-    },
+    }, */
     {
         title: 'Люблінська Політехніка',
         interval: '2015 - 2019',
@@ -103,55 +105,55 @@ const skills = {
     skills: [
         {
             title: 'HTML',
-            rate: 7,
+            rate: 3,
             text: 'Experience in semantic and adaptive layout.',
             Image: HTML,
         },
         {
             title: 'CSS',
-            rate: 7,
+            rate: 3,
             text: 'BEM methodology usage.',
             Image: CSS,
         },
         {
             title: 'JavaScript',
-            rate: 5,
+            rate: 2,
             text: 'Basic knowledge of vanila JS, OOP principals.',
             Image: JS,
         },
         {
             title: 'React',
-            rate: 4,
+            rate: 2,
             text: 'Basic knowledge and practice in React framework.',
             Image: React,
         },
         {
             title: 'Archicad',
-            rate: 8,
+            rate: 5,
             text: 'Advanced knowledge and tones of projects.',
             Image: Archicad,
         },
         {
             title: 'Grasshopper + Rhino',
-            rate: 9,
+            rate: 4,
             text: 'Advanced knowledge, many working scripts.',
             Image: Grass,
         },
         {
             title: 'Adobe Illustrator',
-            rate: 9,
+            rate: 5,
             text: 'Advanced knowledge and practice.',
             Image: AI,
         },
         {
             title: 'Language. English',
-            rate: 4,
+            rate: 3,
             text: 'Intermediate (B1)',
             Image: EN,
         },
         {
             title: 'Language. Polish',
-            rate: 7,
+            rate: 4,
             text: 'Upper intermediate (B2)',
             Image: PL,
         }
@@ -163,55 +165,55 @@ const skillsUA = {
     skills: [
         {
             title: 'HTML',
-            rate: 7,
+            rate: 3,
             text: 'Досвід в семантичній та адаптивній верстці.',
             Image: HTML,
         },
         {
             title: 'CSS',
-            rate: 7,
+            rate: 3,
             text: 'Використання методології BEM',
             Image: CSS,
         },
         {
             title: 'JavaScript',
-            rate: 5,
+            rate: 2,
             text: 'Базові знання JavaScript та принципів ООП.',
             Image: JS,
         },
         {
             title: 'React',
-            rate: 4,
+            rate: 2,
             text: 'Базові знання та практика на фреймворці React.',
             Image: React,
         },
         {
             title: 'Archicad',
-            rate: 8,
+            rate: 5,
             text: 'Продвинуті знання та купа проектів :)',
             Image: Archicad,
         },
         {
             title: 'Grasshopper + Rhino',
-            rate: 9,
+            rate: 4,
             text: 'Продвинуті знання, робочі скріпти.',
             Image: Grass,
         },
         {
             title: 'Adobe Illustrator',
-            rate: 9,
+            rate: 5,
             text: 'Продвинуті знання та практика.',
             Image: AI,
         },
         {
             title: 'Мова. Англійська',
-            rate: 4,
+            rate: 3,
             text: 'Середній (B1)',
             Image: EN,
         },
         {
             title: 'Мова. Польська',
-            rate: 7,
+            rate: 4,
             text: 'Вище середнього (B2)',
             Image: PL,
         }
