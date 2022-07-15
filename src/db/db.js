@@ -13,6 +13,7 @@ import BubbleChartIcon from '@mui/icons-material/BubbleChart';
 import WebIcon from '@mui/icons-material/Web';
 
 
+const age = Math.floor((Date.now() - new Date(1998, 7, 26, 0, 0, 0)) / 31556952000);
 
 const main = {
     nav: ['About me', 'Studies and Courses', 'Skills', 'Experience', 'Projects', 'Contact'],
@@ -32,7 +33,7 @@ const mainUA = {
 const aboutMe = {
     title: 'About me',
     text: [
-        `My name is Yuliia. I am 23 and I am from Kyiv. I graduated from the Lublin University of Technology. Having received a diploma of an engineer-architect, I returned to Kyiv. I work as a developer assistant in the Archimatika architectural bureau. `,
+        `My name is Yuliia. I am ${age} and I am from Kyiv. I graduated from the Lublin University of Technology. Having received a diploma of an engineer-architect, I returned to Kyiv. I work as a developer assistant in the Archimatika architectural bureau. `,
         `I started my career as a BIM-assistant. My responsibilities included writing scripts to automate the workflows of architects, getting fast calculations, creating parametric geometry.`,
         `Since 2020, I have moved to the position of assistant developer. I was in charge of creating and maintaining a database of employees. Soon I began to work with this data, transforming it and making various kinds of presentations (Power BI, creating a website).`,
         `Now I am open to offers and new job as a trainee/junior web-developer.`
@@ -42,7 +43,7 @@ const aboutMe = {
 const aboutMeUA = {
     title: 'Про мене',
     text: [
-        `Мене звати Юля. Мені 23 роки і я з Києва. Я закінчила Люблінську Політехніку. Отримавши диплом інженера архітектора, повернулася до Києва. Працюю помічником розробника у архітектурному бюро "Архіматика".`,
+        `Мене звати Юля. Мені ${age} роки і я з Києва. Я закінчила Люблінську Політехніку. Отримавши диплом інженера архітектора, повернулася до Києва. Працюю помічником розробника у архітектурному бюро "Архіматика".`,
         `Розпочала свою кар'єру з позиції BIM-ассистента. До моїх обов'язків входило написання скриптів для автоматизації робочих процесів архітекторів, отримання швидких розрахунків, створення параметричної геометрії.`,
         `З 2020 року я перейшла на позицію помічника розробника. Займалася створенням та підтримкою бази даних співробітників. Незабаром почала працювати з цими даними, обробляючи їх і роблячи різноманітні презентації (звіти в Power BI, створення вебсайту).`,
         `Зараз я відкрита для пропозицій та роботи у якості стажера/молодшого веб-розробника.`
