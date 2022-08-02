@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d2a3008e.css",
-    "main.js": "/static/js/main.17e30cd4.js",
+    "main.js": "/static/js/main.ff5563fe.js",
     "static/media/background.png": "/static/media/background.35463f65ca0c767d75ce.png",
+    "static/media/puls.png": "/static/media/puls.d1d048c5c2dd05252878.png",
     "static/media/avatar-big.jpg": "/static/media/avatar-big.be072726e51305d44304.jpg",
     "static/media/uber.png": "/static/media/uber.5a2ed72ab48f62a7dc81.png",
     "static/media/wordpress.png": "/static/media/wordpress.7d2ef60e0dcbd04675cb.png",
@@ -18,10 +19,10 @@
     "static/media/archicad.svg": "/static/media/archicad.4b154e5e87949c24a010f4632940fed5.svg",
     "index.html": "/index.html",
     "main.d2a3008e.css.map": "/static/css/main.d2a3008e.css.map",
-    "main.17e30cd4.js.map": "/static/js/main.17e30cd4.js.map"
+    "main.ff5563fe.js.map": "/static/js/main.ff5563fe.js.map"
   },
   "entrypoints": [
     "static/css/main.d2a3008e.css",
-    "static/js/main.17e30cd4.js"
+    "static/js/main.ff5563fe.js"
   ]
 }
