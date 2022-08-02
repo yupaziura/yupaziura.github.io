@@ -379,13 +379,13 @@ const projectWeb = {
             pathWeb: '/word/index.html',
             pathGit: 'https://github.com/yupaziura/html-lessons-website-wordpress',
         },
-        // {
-        //     title:'Puls',
-        //     descr: 'Pulse oximeter web store. Creating HTML layout and adding styles. Preprocessor usage (SASS). Set up gulp. Creating forms and their validation. Adding libraries to project (bootstrap, slick, animate). Animation creation. Creating scripts with Jquery.',
-        //     pathImg: require('../img/projects-web/puls.png'),
-        //     pathWeb: '/puls/src/index.html',
-        //     pathGit: 'https://github.com/yupaziura/html-lessons-website-puls',
-        // },
+        {
+            title:'Puls',
+            descr: 'Pulse oximeter web store. Creating HTML layout and adding styles. Preprocessor usage (SASS). Set up gulp. Creating forms and their validation. Adding libraries to project (bootstrap, slick, animate). Animation creation. Creating scripts with Jquery.',
+            pathImg: require('../img/projects-web/puls.png'),
+            pathWeb: '/puls/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-puls',
+        },
         {
             title:'Uber',
             descr: 'Uber website. Creating HTML layout and adding styles. Preprocessor usage (SCSS). Set up gulp. Adaptive interface.',
@@ -436,13 +436,13 @@ const projectWebUA = {
             pathWeb: '/word/index.html',
             pathGit: 'https://github.com/yupaziura/html-lessons-website-wordpress',
         },
-        // {
-        //     title:'Puls',
-        //     descr: 'Онлайн магазин пульсоксиметрів. Створення HTML розмітки та додавання стилів. Використання препроцесора (SASS). Налаштування gulp. Створення форм та їх валідація. Додавання бібліотек до проєкту (bootstrap, slick, animate). Створення анімації. Створення скрітпів за допомогою Jquery.',
-        //     pathImg: require('../img/projects-web/puls.png'),
-        //     pathWeb: '/puls/src/index.html',
-        //     pathGit: 'https://github.com/yupaziura/html-lessons-website-puls',
-        // },
+        {
+            title:'Puls',
+            descr: 'Онлайн магазин пульсоксиметрів. Створення HTML розмітки та додавання стилів. Використання препроцесора (SASS). Налаштування gulp. Створення форм та їх валідація. Додавання бібліотек до проєкту (bootstrap, slick, animate). Створення анімації. Створення скрітпів за допомогою Jquery.',
+            pathImg: require('../img/projects-web/puls.png'),
+            pathWeb: '/puls/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-puls',
+        },
         {
             title:'Uber',
             descr: 'Вебсайт Uber. Створення HTML розмітки та додавання стилів. Використання препроцесора (SCSS). Налаштування gulp. Створення адаптивного інтерфейсу.',
