@@ -393,13 +393,13 @@ const projectWeb = {
             pathWeb: '/uber/index.html',
             pathGit: 'https://github.com/yupaziura/html-lessons-website-uber',
         },
-        // {
-        //     title:'Portfolio example',
-        //     descr: 'Portfolio layout. Creating HTML layout and adding styles. Preprocessor usage (SCSS). Set up gulp. Adaptive interface. Creating forms and their validation. Creating scripts with Jquery.',
-        //     pathImg: require('../img/projects-web/test-portfolio.png'),
-        //     pathWeb: '/portfolio/dist/index.html',
-        //     pathGit: 'https://github.com/yupaziura/html-lessons-website-portfolio',
-        // },
+        {
+            title:'Portfolio example',
+            descr: 'Portfolio layout. Creating HTML layout and adding styles. Preprocessor usage (SCSS). Set up gulp. Adaptive interface. Creating forms and their validation. Creating scripts with Jquery.',
+            pathImg: require('../img/projects-web/test-portfolio.png'),
+            pathWeb: '/portfolio/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-portfolio',
+        },
         // {
         //     title:'',
         //     descr: '',
@@ -450,13 +450,13 @@ const projectWebUA = {
             pathWeb: '/uber/index.html',
             pathGit: 'https://github.com/yupaziura/html-lessons-website-uber',
         },
-        // {
-        //     title:'Portfolio example',
-        //     descr: 'Макет портфоліо. Створення HTML розмітки та додавання стилів. Використання препроцесора (SCSS). Налаштування gulp.  Створення адаптивного інтерфейсу. Створення форм та їх валідація. Створення скрітпів за допомогою Jquery.',
-        //     pathImg: require('../img/projects-web/test-portfolio.png'),
-        //     pathWeb: '/portfolio/dist/index.html',
-        //     pathGit: 'https://github.com/yupaziura/html-lessons-website-portfolio',
-        // },
+        {
+            title:'Portfolio example',
+            descr: 'Макет портфоліо. Створення HTML розмітки та додавання стилів. Використання препроцесора (SCSS). Налаштування gulp.  Створення адаптивного інтерфейсу. Створення форм та їх валідація. Створення скрітпів за допомогою Jquery.',
+            pathImg: require('../img/projects-web/test-portfolio.png'),
+            pathWeb: '/portfolio/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-portfolio',
+        },
         // {
         //     title:'',
         //     descr: '',
