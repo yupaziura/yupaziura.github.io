@@ -1,6 +1,8 @@
-### Hi there 👋
+# Hi there 👋
 
- My name is Yuliia. I am 24 years old. I am from Kyiv. I graduated from Lublin University of technologies with a degree in architecture.
+### My name is Yuliia and this is my website with information about me and my projects.
+ 
+ I am 24 years old. I am from Kyiv. I graduated from Lublin University of technologies with a degree in architecture.
 
 I started my career as a BIM assistant. Me and my colleagues were creating different kind of scripts and algorithms, which were used for automatization.
 
@@ -8,17 +10,11 @@ Then I moved to junior developer position. Our team created a hr db. Based on th
 
 I was passioned about creating the front end part of the website, so I decided to deep down in it. I finished Udemy courses, and now I am looking for a job, as a junior front end developer to gain an experience and grow up as a specialist.
 
-<!--
-**yupaziura/yupaziura** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About project
 
-Here are some ideas to get you started:
+Project created via **React.js**. Programming language is **Javascript**. Styles created via **SCSS** preproccessor. Website design is **adapt for all kind of screens**. Most components are custom, besides timeline (Material UI) and card flipping (react-card-flip). Website avaliable in **different languages and themes**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Link
+
+https://yupaziura.github.io/
+
