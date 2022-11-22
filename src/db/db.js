@@ -2,6 +2,7 @@ import {ReactComponent as HTML} from '../img/icons/html.svg';
 import {ReactComponent as CSS} from '../img/icons/css.svg';
 import {ReactComponent as JS} from '../img/icons/js.svg';
 import {ReactComponent as React} from '../img/icons/react.svg';
+import {ReactComponent as Redux} from '../img/icons/redux.svg';
 import {ReactComponent as Archicad} from '../img/icons/archicad.svg';
 import {ReactComponent as Grass} from '../img/icons/grass.svg';
 import {ReactComponent as AI} from '../img/icons/ai.svg';
@@ -124,8 +125,14 @@ const skills = {
         {
             title: 'React',
             rate: 2,
-            text: 'Basic knowledge and practice in React framework.',
+            text: 'Basic knowledge and practice.',
             Image: React,
+        },
+        {
+            title: 'Redux',
+            rate: 1,
+            text: 'Basic knowledge and practice.',
+            Image: Redux,
         },
         {
             title: 'Archicad',
@@ -184,8 +191,14 @@ const skillsUA = {
         {
             title: 'React',
             rate: 2,
-            text: 'Базові знання та практика на фреймворці React.',
+            text: 'Базові знання та практика.',
             Image: React,
+        },
+        {
+            title: 'Redux',
+            rate: 1,
+            text: 'Базові знання та практика.',
+            Image: Redux,
         },
         {
             title: 'Archicad',
