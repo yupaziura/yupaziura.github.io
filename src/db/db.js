@@ -8,7 +8,7 @@ import {ReactComponent as AI} from '../img/icons/ai.svg';
 import {ReactComponent as EN} from '../img/icons/en.svg';
 import {ReactComponent as PL} from '../img/icons/pl.svg';
 
-import ArchitectureIcon from '@mui/icons-material/Architecture';
+// import ArchitectureIcon from '@mui/icons-material/Architecture';
 import BubbleChartIcon from '@mui/icons-material/BubbleChart';
 import WebIcon from '@mui/icons-material/Web';
 
@@ -374,7 +374,7 @@ const projectWeb = {
     arr: [
         {
             title:'Hvoja',
-            descr: `Website for online store Hvoja. I created a design, layout and styles. I used React.js and Bootstrap. As a database I created Airtable tables and used REST API ta get data from them. Also there is a form for users. The Emailjs was used to get users data.`,
+            descr: `Website for online store Hvoja. I created a design, layout and styles. I used React.js and Bootstrap. As a database I created Airtable tables and used REST API to get data from them. Also there is a form for users. The Emailjs was used to get users data.`,
             pathImg: require('../img/projects-web/hvoja.png'),
             pathWeb: 'https://hvoja.store',
             pathGit: 'https://github.com/yupaziura/store-woodo',
@@ -389,11 +389,12 @@ const projectWeb = {
             link: true,
         },
         {
-            title:'Wordpress',
-            descr: 'Courses for Wordpress. Creating proper project folder structure. Creating HTML layout and adding styles.',
-            pathImg: require('../img/projects-web/wordpress.png'),
-            pathWeb: '/word/index.html',
-            pathGit: 'https://github.com/yupaziura/html-lessons-website-wordpress',
+            title:'BTC currency value',
+            descr: `Website than shows actual BTC currency. Project created via React.js. Redux was used to store data.`,
+            pathImg: require('../img/projects-web/btc.png'),
+            pathWeb: 'https://rainbow-tanuki-501e4b.netlify.app',
+            pathGit: 'https://github.com/yupaziura/test-btc',
+            link: true,
         },
         {
             title:'Puls',
@@ -415,6 +416,13 @@ const projectWeb = {
             pathImg: require('../img/projects-web/test-portfolio.png'),
             pathWeb: '/portfolio/index.html',
             pathGit: 'https://github.com/yupaziura/html-lessons-website-portfolio',
+        },
+        {
+            title:'Wordpress',
+            descr: 'Courses for Wordpress. Creating proper project folder structure. Creating HTML layout and adding styles.',
+            pathImg: require('../img/projects-web/wordpress.png'),
+            pathWeb: '/word/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-wordpress',
         },
         // {
         //     title:'',
@@ -462,11 +470,12 @@ const projectWebUA = {
             link: true,
         },
         {
-            title:'Wordpress',
-            descr: 'Вебсайт курсів Wordpress. Створення правильної структури папок. Створення HTML розмітки та додавання стилів.',
-            pathImg: require('../img/projects-web/wordpress.png'),
-            pathWeb: '/word/index.html',
-            pathGit: 'https://github.com/yupaziura/html-lessons-website-wordpress',
+            title:'BTC курс валют',
+            descr: `Вебсайт, що показує актуальний курс биткоіна до інших валют. Проект бук створений за допомогою React.js. Redux був використаний для зберігання даних.`,
+            pathImg: require('../img/projects-web/btc.png'),
+            pathWeb: 'https://rainbow-tanuki-501e4b.netlify.app',
+            pathGit: 'https://github.com/yupaziura/test-btc',
+            link: true,
         },
         {
             title:'Puls',
@@ -488,6 +497,13 @@ const projectWebUA = {
             pathImg: require('../img/projects-web/test-portfolio.png'),
             pathWeb: '/portfolio/index.html',
             pathGit: 'https://github.com/yupaziura/html-lessons-website-portfolio',
+        },
+        {
+            title:'Wordpress',
+            descr: 'Вебсайт курсів Wordpress. Створення правильної структури папок. Створення HTML розмітки та додавання стилів.',
+            pathImg: require('../img/projects-web/wordpress.png'),
+            pathWeb: '/word/index.html',
+            pathGit: 'https://github.com/yupaziura/html-lessons-website-wordpress',
         },
         // {
         //     title:'',
