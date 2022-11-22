@@ -21,8 +21,8 @@ const Projects = (props) => {
     const elem = obj.projects.map(({title, Icon, path}, i) => {
         return (
 
-            <div>
-                <TextArea key={i} theme={props.theme}>
+            <div key={i} >
+                <TextArea theme={props.theme}>
                     <Link to={path} className={'projects__links'}>
                         <div className="projects__container">
                             <div className="projects__headerblock">
