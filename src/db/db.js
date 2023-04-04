@@ -285,7 +285,7 @@ const experience = {
         {
             title: 'Developer-assistant',
             company: 'Archimatika',
-            interval: '2020 - now',
+            interval: '2020 - 2022',
             text: 'Creation of workers database based on Dataverse and supporting. Working with data, their transformation and presentation.',
             detail: ['deployment workers database',
                     'updating data in DB',
@@ -336,7 +336,7 @@ const experienceUA = {
         {
             title: 'Помічник розробника',
             company: 'Archimatika',
-            interval: '2020 - зараз',
+            interval: '2020 - 2022',
             text: 'Створення бази данних працівників на базі Dataverse. Робота з данними, їх трансформація та презентація.',
             detail: ['розгортання бази данних працівників',
                     'оновлення данних в базі данних',
