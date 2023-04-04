@@ -360,7 +360,10 @@ const projects = {
         // path: '/projects_arch'},
         {title: 'Rhinoceros & Grasshopper',
         Icon: BubbleChartIcon,
-        path: '/projects_grass'}
+        path: '/projects_grass'},
+        {title: 'Web-design',
+        Icon: BubbleChartIcon,
+        path: '/projects_design'}
     ]
 }
 
@@ -376,7 +379,10 @@ const projectsUA = {
         // path: '/projects_arch'},
         {title: 'Rhinoceros & Grasshopper',
         Icon: BubbleChartIcon,
-        path: '/projects_grass'}
+        path: '/projects_grass'},
+        {title: 'Web-дизайн',
+        Icon: BubbleChartIcon,
+        path: '/projects_design'}
     ]
 }
 
@@ -542,8 +548,26 @@ const projectWebUA = {
     ]
 }
 
+const projectDes = {
+    projects: [{
+        id: 0,
+        name: 'Library portal (pet-project)',
+        descr: 'Frames usage to show adaptive layout. Components with actions and different states.',
+        link: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FhFe5AoB6rNnICOxJzxluaJ%2Fhero_section%3Fnode-id%3D0%253A1%26t%3DTi2064bAlLCAnyhp-1'    
+    }]
+}
+
+const projectDesUA = {
+    projects: [{
+        id: 0,
+        name: 'Портал бібліотека (пет-проєкт)',
+        descr: 'Використання різних фреймів для показання адаптивності дизайну. Компоненти з різнити діями та станами.',
+        link: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FhFe5AoB6rNnICOxJzxluaJ%2Fhero_section%3Fnode-id%3D0%253A1%26t%3DTi2064bAlLCAnyhp-1'    
+    }]
+}
 
 
 
 
-export {projectWebUA, projectWeb, projects, projectsUA, experience, experienceUA, main, mainUA, aboutMe, aboutMeUA, studies, studiesUA, skills, skillsUA, footer, footerUA};
+
+export {projectDes, projectDesUA, projectWebUA, projectWeb, projects, projectsUA, experience, experienceUA, main, mainUA, aboutMe, aboutMeUA, studies, studiesUA, skills, skillsUA, footer, footerUA};

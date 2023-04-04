@@ -1,0 +1,15 @@
+.design{
+    &__title{
+        font-size: 25px;
+    }
+
+    &__descr{
+        margin: 10px 0;
+    }
+
+    &__frame {
+        iframe{
+            border-radius: 10px;
+        }
+    }
+}
