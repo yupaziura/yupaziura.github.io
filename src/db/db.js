@@ -400,6 +400,14 @@ const projectWeb = {
             link: true,
         },
         {
+            title:'To do list',
+            descr: `Task planner. Create your account via Google and you are good to go! Create tasks, set their priority and due date.`,
+            pathImg: require('../img/projects-web/todo.png'),
+            pathWeb: 'https://sandbox-todo-list.vercel.app/',
+            pathGit: 'https://github.com/yupaziura/sandbox-todo_list',
+            link: true,
+        },
+        {
             title:'Messenger',
             descr: `Messenger. Created on React.js. Custom functional components, hooks usage, REST API usage.`,
             pathImg: require('../img/projects-web/messenger.png'),
@@ -478,6 +486,14 @@ const projectWebUA = {
             pathImg: require('../img/projects-web/hvoja.png'),
             pathWeb: 'hvojs.store',
             pathGit: 'https://github.com/yupaziura/store-woodo',
+            link: true,
+        },
+        {
+            title:'Список завдань',
+            descr: `Планер задач. Створіть аккаунт за допомогою Google і все готово! Створюйте завдання, встановлюйте їхній пріорітет та термін виконання.`,
+            pathImg: require('../img/projects-web/todo.png'),
+            pathWeb: 'https://sandbox-todo-list.vercel.app/',
+            pathGit: 'https://github.com/yupaziura/sandbox-todo_list',
             link: true,
         },
         {
