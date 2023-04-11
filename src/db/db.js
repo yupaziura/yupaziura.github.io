@@ -8,6 +8,7 @@ import {ReactComponent as Grass} from '../img/icons/grass.svg';
 import {ReactComponent as AI} from '../img/icons/ai.svg';
 import {ReactComponent as EN} from '../img/icons/en.svg';
 import {ReactComponent as PL} from '../img/icons/pl.svg';
+import {ReactComponent as Figma} from '../img/icons/figma.svg';
 
 // import ArchitectureIcon from '@mui/icons-material/Architecture';
 import BubbleChartIcon from '@mui/icons-material/BubbleChart';
@@ -135,6 +136,12 @@ const skills = {
             Image: Redux,
         },
         {
+            title: 'Figma',
+            rate: 2,
+            text: 'Basic knowledge and practice.',
+            Image: Figma,
+        },
+        {
             title: 'Archicad',
             rate: 5,
             text: 'Advanced knowledge and tones of projects.',
@@ -199,6 +206,12 @@ const skillsUA = {
             rate: 1,
             text: 'Базові знання та практика.',
             Image: Redux,
+        },
+        {
+            title: 'Figma',
+            rate: 2,
+            text: 'Базові знання та практика.',
+            Image: Figma,
         },
         {
             title: 'Archicad',

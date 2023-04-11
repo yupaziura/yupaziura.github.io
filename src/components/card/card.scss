@@ -16,13 +16,19 @@
     
         svg  {
             fill: $secondary_dark_1;
+            path, circle{
+                stroke: $secondary_dark_1;
+            }
         }
 
 }
 
 .card_1 {
     svg{
-        fill: $secondary_dark_2; 
+        fill: $secondary_dark_2;
+        path, circle{
+            stroke: $secondary_dark_2;  
+        }
     }
 }
 
@@ -30,5 +36,8 @@
  .card_2{
         svg{
             fill: $secondary_dark_3; 
+            path, circle{
+                stroke: $secondary_dark_3; 
+            }
         }
     }
