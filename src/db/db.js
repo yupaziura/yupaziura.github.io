@@ -583,7 +583,14 @@ const projectDes = {
         name: 'Library portal (pet-project)',
         descr: 'Frames usage to show adaptive layout. Components with actions and different states.',
         link: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FhFe5AoB6rNnICOxJzxluaJ%2Fhero_section%3Fnode-id%3D0%253A1%26t%3DTi2064bAlLCAnyhp-1'    
-    }]
+    },
+    {
+        id: 1,
+        name: 'Mobile app (pet-project)',
+        descr: 'A prototype of mobile app with working menu and other actions.',
+        link: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5vaEXLEnU0SzCyWROwdHsR%2FMobile_actions%3Fnode-id%3D0%253A1%26t%3DDmFHF6gn0n5xGqPP-1'    
+    },
+]
 }
 
 const projectDesUA = {
@@ -592,7 +599,14 @@ const projectDesUA = {
         name: 'Портал бібліотека (пет-проєкт)',
         descr: 'Використання різних фреймів для показання адаптивності дизайну. Компоненти з різнити діями та станами.',
         link: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FhFe5AoB6rNnICOxJzxluaJ%2Fhero_section%3Fnode-id%3D0%253A1%26t%3DTi2064bAlLCAnyhp-1'    
-    }]
+    },
+    {
+        id: 1,
+        name: 'Мобільний додаток (пет-проєкт)',
+        descr: 'Прототип мобільного додатку з меню гамбургером та різними діями.',
+        link: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5vaEXLEnU0SzCyWROwdHsR%2FMobile_actions%3Fnode-id%3D0%253A1%26t%3DDmFHF6gn0n5xGqPP-1'    
+    },
+]
 }
 
 
