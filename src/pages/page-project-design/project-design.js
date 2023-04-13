@@ -17,8 +17,18 @@ const ProjectsDesign = (props) => {
                     
                         <p className='design__descr'>{item.descr}</p>
     
-                        <div className='design__frame'>
-                            <iframe title={item.id} style={{width: '100%', height: '300px'}} src={item.link} frameborder="0"></iframe>
+                        <div className='design__frame' style={{display: 'flex', gap: '10px'}}>
+                            <div className="" style={{width: 'clamp(290px, 100%, 1000px)', height: '510px'}}>
+                                <iframe title={item.id} width='100%' height='100%'  src={item.link} frameborder="0"></iframe>
+                            </div>
+                            {
+                                item.proto?
+                                    <div className="" style={{width: 'clamp(290px, 30%, 450px)', height: '510px'}}>
+                                        <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}}  width='100%' height='100%'  title={item.id}  src={item.proto} frameborder="0"></iframe>
+                                    </div>
+                                    :
+                                    null
+                            }
                         </div>
                 </div>
             </TextArea>
