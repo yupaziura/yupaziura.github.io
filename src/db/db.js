@@ -578,7 +578,14 @@ const projectWebUA = {
 }
 
 const projectDes = {
-    projects: [{
+    projects: [
+    {
+        id: 2,
+        name: 'MessageMail challange (pet-project)',
+        descr: 'A prototype of website for MessageMail company with a strict requirements. Development of design style.',
+        link: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F42Yn1blUOIToD8OSCoG4N5%2Fchallenge-message%3Fnode-id%3D0%253A1%26t%3DWjlweMzfER9FtVJN-1",    
+    },
+    {
         id: 0,
         name: 'Library portal (pet-project)',
         descr: 'Frames usage to show adaptive layout. Components with actions and different states.',
@@ -597,6 +604,12 @@ const projectDes = {
 
 const projectDesUA = {
     projects: [{
+        id: 2,
+        name: 'MessageMail challange (пет-проєкт)',
+        descr: 'Прототип вебсайту для компанії MessageMail з чітко окресленими вимогами. Розробка design style.',
+        link: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F42Yn1blUOIToD8OSCoG4N5%2Fchallenge-message%3Fnode-id%3D0%253A1%26t%3DWjlweMzfER9FtVJN-1",    
+    },
+    {
         id: 0,
         name: 'Портал бібліотека (пет-проєкт)',
         descr: 'Використання різних фреймів для показання адаптивності дизайну. Компоненти з різнити діями та станами.',
