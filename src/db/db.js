@@ -413,6 +413,14 @@ const projectWeb = {
             link: true,
         },
         {
+            title:'Budget Tracker',
+            descr: `Web app to track your expenses and incomes. You need to fill the form to add new record. All transactions are automatically sort by date. Your balance will also be calculated.`,
+            pathImg: require('../img/projects-web/budget-tracker.png'),
+            pathWeb: 'https://test-budget-app.vercel.app/',
+            pathGit: 'https://github.com/yupaziura/test-budget_app',
+            link: true,
+        },
+        {
             title:'To do list',
             descr: `Task planner. Create your account via Google and you are good to go! Create tasks, set their priority and due date.`,
             pathImg: require('../img/projects-web/todo.png'),
@@ -499,6 +507,14 @@ const projectWebUA = {
             pathImg: require('../img/projects-web/hvoja.png'),
             pathWeb: 'hvojs.store',
             pathGit: 'https://github.com/yupaziura/store-woodo',
+            link: true,
+        },
+        {
+            title:'Трекер витрат',
+            descr: `Веб додаток, що дозволить вам відслідковувати свої витрати на надходження. Все, що ви маєте зробити — це заповнити форму, щоб додати новий запис. Усі транзакції автоматично фільтруються по даті. Також вам буде розраховано баланс.`,
+            pathImg: require('../img/projects-web/budget-tracker.png'),
+            pathWeb: 'https://test-budget-app.vercel.app/',
+            pathGit: 'https://github.com/yupaziura/test-budget_app',
             link: true,
         },
         {
