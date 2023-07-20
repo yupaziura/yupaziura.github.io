@@ -421,6 +421,16 @@ const projectWeb = {
             link: true,
         },
         {
+            title:'List of beer recipes',
+            descr: `An app that displays a list of beer recipes. You are able to
+            scroll through a list of recipes and to view a single recipe. You can select multiple recipes by clicking on
+            recipes with the mouse right button. If you selected at least one recipe, the "Delete" button will apear.`,
+            pathImg: require('../img/projects-web/beer-list.png'),
+            pathWeb: 'https://test-beer-list.vercel.app/',
+            pathGit: 'https://github.com/yupaziura/test-beer_list',
+            link: true,
+        },
+        {
             title:'To do list',
             descr: `Task planner. Create your account via Google and you are good to go! Create tasks, set their priority and due date.`,
             pathImg: require('../img/projects-web/todo.png'),
@@ -515,6 +525,14 @@ const projectWebUA = {
             pathImg: require('../img/projects-web/budget-tracker.png'),
             pathWeb: 'https://test-budget-app.vercel.app/',
             pathGit: 'https://github.com/yupaziura/test-budget_app',
+            link: true,
+        },
+        {
+            title:'Список рецептів пива',
+            descr: `Додаток, що показує різні рецепти пива. Ви маєте можливість переглянути список рецептів або подивитися якийьс конкретний. Ви можете вибрати кілька рецептівб наживаючи ПКМ та видалити їх.`,
+            pathImg: require('../img/projects-web/beer-list.png'),
+            pathWeb: 'https://test-beer-list.vercel.app/',
+            pathGit: 'https://github.com/yupaziura/test-beer_list',
             link: true,
         },
         {
